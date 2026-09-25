@@ -1,0 +1,204 @@
+{
+  "tool": {
+    "id": "etilometro-ctb",
+    "title": "Etilômetro: valor considerado (Resolução Contran 432)",
+    "short": "Medição do bafômetro, erro admissível e enquadramento no CTB",
+    "spec": [
+      "medicina-de-trafego",
+      "medicina-legal-e-pericia-medica"
+    ],
+    "tier": 1,
+    "desc": "Converta a medição do etilômetro no valor considerado para autuação, descontando o erro máximo admissível da Resolução Contran 432/2013, e veja o enquadramento no CTB.",
+    "lead": "Aplica a tabela de valores referenciais para etilômetro da Resolução Contran nº 432/2013 e indica se a medição caracteriza infração (art. 165) ou crime (art. 306).",
+    "fields": [
+      [
+        "mr",
+        "Medição realizada pelo etilômetro (MR)",
+        "num",
+        {
+          "min": 0,
+          "max": 5,
+          "step": 0.01,
+          "unit": "mg/L de ar",
+          "ph": "0,34"
+        }
+      ]
+    ],
+    "formula": "<p><strong>VC = MR − EM</strong>, com duas casas decimais, desprezando as demais (sem arredondamento).</p><p>Erro máximo admissível (EM): MR inferior a 0,40 mg/L = 0,032 mg/L; MR de 0,40 até 2,00 mg/L = 8% da MR; MR acima de 2,00 mg/L = 30% da MR.</p><p>Infração (art. 165): MR ≥ 0,05 mg/L (VC ≥ 0,01). Crime (art. 306): MR ≥ 0,34 mg/L (VC ≥ 0,30 mg/L, equivalente a 6 dg/L de sangue).</p>",
+    "table": [
+      [
+        "Medição (MR)",
+        "Valor considerado (VC)",
+        "Enquadramento"
+      ],
+      [
+        "0,05 mg/L",
+        "0,01 mg/L",
+        "Infração do art. 165"
+      ],
+      [
+        "0,33 mg/L",
+        "0,29 mg/L",
+        "Infração do art. 165"
+      ],
+      [
+        "0,34 mg/L",
+        "0,30 mg/L",
+        "Infração do art. 165 + crime do art. 306"
+      ],
+      [
+        "1,00 mg/L",
+        "0,92 mg/L",
+        "Infração do art. 165 + crime do art. 306"
+      ],
+      [
+        "2,00 mg/L",
+        "1,84 mg/L",
+        "Infração do art. 165 + crime do art. 306"
+      ]
+    ],
+    "table_note": "Linhas da Tabela de Valores Referenciais para Etilômetro (Anexo I da Resolução Contran nº 432/2013).",
+    "tips": [
+      "Além do etilômetro, a infração e o crime podem ser caracterizados por exame de sangue, exames clínicos, vídeo, prova testemunhal ou pelos <strong>sinais de alteração da capacidade psicomotora</strong> listados no Anexo II da Resolução 432.",
+      "Pelo sangue, a infração existe com qualquer concentração de álcool, e o crime com 6 decigramas por litro ou mais.",
+      "A recusa ao teste do etilômetro, a exame ou a perícia é infração autônoma (art. 165-A do CTB), com as mesmas penalidades administrativas do art. 165.",
+      "O etilômetro precisa estar aprovado e verificado pelo Inmetro; em perícia, confira o registro da verificação e o número de série no comprovante.",
+      "Confira sempre a redação vigente do CTB e das resoluções do Contran: as normas de trânsito são alteradas com frequência."
+    ],
+    "sources": [
+      [
+        "Brasil. Conselho Nacional de Trânsito. Resolução Contran nº 432, de 23 de janeiro de 2013 (procedimentos de fiscalização do consumo de álcool, Anexo I).",
+        "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucao-no-432-de-23-de-janeiro-de-2013"
+      ],
+      [
+        "Brasil. Lei nº 9.503, de 23 de setembro de 1997: Código de Trânsito Brasileiro (arts. 165, 276 e 306), texto compilado.",
+        "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm"
+      ]
+    ],
+    "cases": [
+      [
+        "MR 0,05: VC 0,01 (infração)",
+        {
+          "mr": 0.05
+        },
+        {
+          "raw": {
+            "vc": 0.01
+          },
+          "main": "0,01",
+          "level": "mid",
+          "tol": 0.0001
+        }
+      ],
+      [
+        "MR 0,33: VC 0,29 (infração, sem crime)",
+        {
+          "mr": 0.33
+        },
+        {
+          "raw": {
+            "vc": 0.29
+          },
+          "level": "mid",
+          "tol": 0.0001
+        }
+      ],
+      [
+        "MR 0,34: VC 0,30 (crime)",
+        {
+          "mr": 0.34
+        },
+        {
+          "raw": {
+            "vc": 0.3
+          },
+          "level": "high",
+          "verdict": "crime",
+          "tol": 0.0001
+        }
+      ],
+      [
+        "MR 0,64: EM 8% = 0,0512; VC 0,58 (tabela oficial)",
+        {
+          "mr": 0.64
+        },
+        {
+          "raw": {
+            "vc": 0.58
+          },
+          "tol": 0.0001
+        }
+      ],
+      [
+        "MR 1,00: VC 0,92",
+        {
+          "mr": 1
+        },
+        {
+          "raw": {
+            "vc": 0.92
+          },
+          "tol": 0.0001
+        }
+      ],
+      [
+        "MR 2,50: EM 30% = 0,75; VC 1,75",
+        {
+          "mr": 2.5
+        },
+        {
+          "raw": {
+            "vc": 1.75
+          },
+          "level": "high",
+          "tol": 0.0001
+        }
+      ],
+      [
+        "MR 0,04: VC 0,00 (não caracteriza pelo etilômetro)",
+        {
+          "mr": 0.04
+        },
+        {
+          "raw": {
+            "vc": 0
+          },
+          "level": "low",
+          "tol": 0.0001
+        }
+      ]
+    ],
+    "batch": "saude-coletiva",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "saude-coletiva",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/saude-coletiva.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 7,
+      "passed": 7,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/saude-coletiva.php",
+    "sha256": "5f081943f8faff99f4a6ac07fc16af6d7f8e6aa64d874af2d00ed8bae97da6a2",
+    "bytes": 77577
+  },
+  "clinicalValidation": "not-performed"
+}
