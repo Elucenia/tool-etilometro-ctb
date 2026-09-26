@@ -1,9 +1,11 @@
-/* ELUCENIA standalone integration. Source package metadata and rights: README.md. */
+/* tool-etilometro-ctb · Elucenia · https://github.com/Elucenia/tool-etilometro-ctb
+   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+   Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"etilometro-ctb","title":"Etilômetro: valor considerado (Resolução Contran 432)","fields":[["mr","Medição realizada pelo etilômetro (MR)","num",{"min":0,"max":5,"step":0.01,"unit":"mg/L de ar","ph":"0,34"}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
