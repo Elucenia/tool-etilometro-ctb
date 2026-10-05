@@ -1,6 +1,12 @@
 [
   {
-    "label": "MR 0,05: VC 0,01 (infração)",
+    "id": "etilometro-ctb",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "MR 0,05: VC 0,01 (infração)",
+    "originalInput": {
+      "mr": 0.05
+    },
     "input": {
       "mr": 0.05
     },
@@ -12,13 +18,34 @@
       "level": "mid",
       "tol": 0.0001
     },
-    "originalInput": {
-      "mr": 0.05
+    "recordedResult": {
+      "main": [
+        "0,01",
+        "mg/L"
+      ],
+      "label": "Valor considerado (VC = medição − erro máximo admissível)",
+      "raw": {
+        "vc": 0.01,
+        "em": 0.032
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "MR 0,33: VC 0,29 (infração, sem crime)",
+    "id": "etilometro-ctb",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "MR 0,33: VC 0,29 (infração, sem crime)",
+    "originalInput": {
+      "mr": 0.33
+    },
     "input": {
       "mr": 0.33
     },
@@ -29,13 +56,34 @@
       "level": "mid",
       "tol": 0.0001
     },
-    "originalInput": {
-      "mr": 0.33
+    "recordedResult": {
+      "main": [
+        "0,29",
+        "mg/L"
+      ],
+      "label": "Valor considerado (VC = medição − erro máximo admissível)",
+      "raw": {
+        "vc": 0.29,
+        "em": 0.032
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "MR 0,34: VC 0,30 (crime)",
+    "id": "etilometro-ctb",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "MR 0,34: VC 0,30 (crime)",
+    "originalInput": {
+      "mr": 0.34
+    },
     "input": {
       "mr": 0.34
     },
@@ -47,13 +95,34 @@
       "verdict": "crime",
       "tol": 0.0001
     },
-    "originalInput": {
-      "mr": 0.34
+    "recordedResult": {
+      "main": [
+        "0,30",
+        "mg/L"
+      ],
+      "label": "Valor considerado (VC = medição − erro máximo admissível)",
+      "raw": {
+        "vc": 0.3,
+        "em": 0.032
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "MR 0,64: EM 8% = 0,0512; VC 0,58 (tabela oficial)",
+    "id": "etilometro-ctb",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "MR 0,64: EM 8% = 0,0512; VC 0,58 (tabela oficial)",
+    "originalInput": {
+      "mr": 0.64
+    },
     "input": {
       "mr": 0.64
     },
@@ -63,13 +132,34 @@
       },
       "tol": 0.0001
     },
-    "originalInput": {
-      "mr": 0.64
+    "recordedResult": {
+      "main": [
+        "0,58",
+        "mg/L"
+      ],
+      "label": "Valor considerado (VC = medição − erro máximo admissível)",
+      "raw": {
+        "vc": 0.58,
+        "em": 0.0512
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "MR 1,00: VC 0,92",
+    "id": "etilometro-ctb",
+    "kind": "native-source-reference",
+    "index": 4,
+    "name": "MR 1,00: VC 0,92",
+    "originalInput": {
+      "mr": 1
+    },
     "input": {
       "mr": 1
     },
@@ -79,13 +169,34 @@
       },
       "tol": 0.0001
     },
-    "originalInput": {
-      "mr": 1
+    "recordedResult": {
+      "main": [
+        "0,92",
+        "mg/L"
+      ],
+      "label": "Valor considerado (VC = medição − erro máximo admissível)",
+      "raw": {
+        "vc": 0.92,
+        "em": 0.08
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "MR 2,50: EM 30% = 0,75; VC 1,75",
+    "id": "etilometro-ctb",
+    "kind": "native-source-reference",
+    "index": 5,
+    "name": "MR 2,50: EM 30% = 0,75; VC 1,75",
+    "originalInput": {
+      "mr": 2.5
+    },
     "input": {
       "mr": 2.5
     },
@@ -96,13 +207,34 @@
       "level": "high",
       "tol": 0.0001
     },
-    "originalInput": {
-      "mr": 2.5
+    "recordedResult": {
+      "main": [
+        "1,75",
+        "mg/L"
+      ],
+      "label": "Valor considerado (VC = medição − erro máximo admissível)",
+      "raw": {
+        "vc": 1.75,
+        "em": 0.75
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "MR 0,04: VC 0,00 (não caracteriza pelo etilômetro)",
+    "id": "etilometro-ctb",
+    "kind": "native-source-reference",
+    "index": 6,
+    "name": "MR 0,04: VC 0,00 (não caracteriza pelo etilômetro)",
+    "originalInput": {
+      "mr": 0.04
+    },
     "input": {
       "mr": 0.04
     },
@@ -113,9 +245,24 @@
       "level": "low",
       "tol": 0.0001
     },
-    "originalInput": {
-      "mr": 0.04
+    "recordedResult": {
+      "main": [
+        "0,00",
+        "mg/L"
+      ],
+      "label": "Valor considerado (VC = medição − erro máximo admissível)",
+      "raw": {
+        "vc": 0,
+        "em": 0.032
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

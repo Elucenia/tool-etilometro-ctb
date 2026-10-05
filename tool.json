@@ -3,13 +3,13 @@
     "id": "etilometro-ctb",
     "title": "Etilômetro: valor considerado (Resolução Contran 432)",
     "short": "Medição do bafômetro, erro admissível e enquadramento no CTB",
+    "desc": "Converta a medição do etilômetro no valor considerado para autuação, descontando o erro máximo admissível da Resolução Contran 432/2013, e veja o enquadramento no CTB.",
+    "lead": "Aplica a tabela de valores referenciais para etilômetro da Resolução Contran nº 432/2013 e indica se a medição caracteriza infração (art. 165) ou crime (art. 306).",
+    "kind": "Calculadora",
     "spec": [
       "medicina-de-trafego",
       "medicina-legal-e-pericia-medica"
     ],
-    "tier": 1,
-    "desc": "Converta a medição do etilômetro no valor considerado para autuação, descontando o erro máximo admissível da Resolução Contran 432/2013, e veja o enquadramento no CTB.",
-    "lead": "Aplica a tabela de valores referenciais para etilômetro da Resolução Contran nº 432/2013 e indica se a medição caracteriza infração (art. 165) ou crime (art. 306).",
     "fields": [
       [
         "mr",
@@ -25,46 +25,6 @@
       ]
     ],
     "formula": "<p><strong>VC = MR − EM</strong>, com duas casas decimais, desprezando as demais (sem arredondamento).</p><p>Erro máximo admissível (EM): MR inferior a 0,40 mg/L = 0,032 mg/L; MR de 0,40 até 2,00 mg/L = 8% da MR; MR acima de 2,00 mg/L = 30% da MR.</p><p>Infração (art. 165): MR ≥ 0,05 mg/L (VC ≥ 0,01). Crime (art. 306): MR ≥ 0,34 mg/L (VC ≥ 0,30 mg/L, equivalente a 6 dg/L de sangue).</p>",
-    "table": [
-      [
-        "Medição (MR)",
-        "Valor considerado (VC)",
-        "Enquadramento"
-      ],
-      [
-        "0,05 mg/L",
-        "0,01 mg/L",
-        "Infração do art. 165"
-      ],
-      [
-        "0,33 mg/L",
-        "0,29 mg/L",
-        "Infração do art. 165"
-      ],
-      [
-        "0,34 mg/L",
-        "0,30 mg/L",
-        "Infração do art. 165 + crime do art. 306"
-      ],
-      [
-        "1,00 mg/L",
-        "0,92 mg/L",
-        "Infração do art. 165 + crime do art. 306"
-      ],
-      [
-        "2,00 mg/L",
-        "1,84 mg/L",
-        "Infração do art. 165 + crime do art. 306"
-      ]
-    ],
-    "table_note": "Linhas da Tabela de Valores Referenciais para Etilômetro (Anexo I da Resolução Contran nº 432/2013).",
-    "tips": [
-      "Além do etilômetro, a infração e o crime podem ser caracterizados por exame de sangue, exames clínicos, vídeo, prova testemunhal ou pelos <strong>sinais de alteração da capacidade psicomotora</strong> listados no Anexo II da Resolução 432.",
-      "Pelo sangue, a infração existe com qualquer concentração de álcool, e o crime com 6 decigramas por litro ou mais.",
-      "A recusa ao teste do etilômetro, a exame ou a perícia é infração autônoma (art. 165-A do CTB), com as mesmas penalidades administrativas do art. 165.",
-      "O etilômetro precisa estar aprovado e verificado pelo Inmetro; em perícia, confira o registro da verificação e o número de série no comprovante.",
-      "Confira sempre a redação vigente do CTB e das resoluções do Contran: as normas de trânsito são alteradas com frequência."
-    ],
     "sources": [
       [
         "Brasil. Conselho Nacional de Trânsito. Resolução Contran nº 432, de 23 de janeiro de 2013 (procedimentos de fiscalização do consumo de álcool, Anexo I).",
@@ -168,9 +128,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -179,17 +136,378 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T21:50:52.213Z",
+      "total": 206,
+      "passed": 206,
+      "sourceRowCount": 206,
+      "uniqueApiInputCount": 206,
+      "sourceContextCount": 206,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "f6c5f8caa27eb69ec4d4f746bf808d2b1336d81fae0b59ee483a6c5bf4f8522d",
+        "total": 206,
+        "bankRowCount": 206,
+        "uniqueApiInputCount": 206,
+        "sourceContextCount": 206,
+        "fullStoredSourceRows": 206,
+        "localRejectionContractCount": 0,
+        "excludedSourceObservationCount": 0,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/seven-primary-independent-expectations-final35.json",
+            "sha256": "7fc110068db25fd0f4a5d2f53569d24fa93b6fa05ac3486d752814c33204e41e"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/seven-primary-independent-source-check-final35.json",
+          "sha256": "dca93fed75cf2559c3ef39c581218fd9c4e604d0bbbcd787556bc8ef14590e85"
+        },
+        "packagingRequirement": "Copy every complete bank byte exactly. Rebind future source/edition/code amendments explicitly; no rounding/clinical/rights scope expansion."
+      },
+      "scope": "Only two-decimal MR, error subtraction and truncation. 2013 table arithmetic, not current legal decision or instrument certification.",
+      "sourceEvidence": {
+        "review": {
+          "file": "reports/review-20261003/seven-primary-source-review-final35.json",
+          "sha256": "030c9299a4eef7b89ff75601532949784448b173e52da8b014b56597b14eef48"
+        },
+        "reading": {
+          "id": "etilometro-ctb",
+          "currentMethodVersion": "CONTRAN 432/2013 Anexo I:erro 0,032/8%/30%; truncamento 2 decimais; aplicação Brasil",
+          "currentMethodSource": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucao-no-432-de-23-de-janeiro-de-2013",
+          "recordBinding": {
+            "file": "reports/review-20261003/seven-primary-frozen-inputs-final35/selected-records/etilometro-ctb.json",
+            "sha256": "f4ae537e79b8e5cf3137ab3e3434b09b4b83bb0b142c95cdb3d192ffe1ac0af4"
+          },
+          "adapterBindings": [
+            {
+              "file": "apps/website/private/tool-code/etilometro-ctb/calculator.js",
+              "sha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3",
+              "bytes": 5223,
+              "frozenFile": "reports/review-20261003/seven-primary-frozen-inputs-final35/apps/website/private/tool-code/etilometro-ctb/calculator.js",
+              "currentSha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+            },
+            {
+              "file": "apps/dashboard/private/tool-code/etilometro-ctb/calculator.js",
+              "sha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3",
+              "bytes": 5223,
+              "frozenFile": "reports/review-20261003/seven-primary-frozen-inputs-final35/apps/dashboard/private/tool-code/etilometro-ctb/calculator.js",
+              "currentSha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+            },
+            {
+              "file": "apps/command-center/private/tool-code/etilometro-ctb/calculator.js",
+              "sha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3",
+              "bytes": 5223,
+              "frozenFile": "reports/review-20261003/seven-primary-frozen-inputs-final35/apps/command-center/private/tool-code/etilometro-ctb/calculator.js",
+              "currentSha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+            }
+          ],
+          "ownSourceInputs": 206,
+          "observedAdapterRows": 618,
+          "sourceIds": [
+            "CONTRAN432-2013-AnnexI"
+          ],
+          "scope": "Only two-decimal MR, error subtraction and truncation. 2013 table arithmetic, not current legal decision or instrument certification.",
+          "status": "bounded-arithmetic-confirmed",
+          "unchecked": [
+            "Current legislation/metrology and legal/clinical categories"
+          ],
+          "clinicalApproval": "not-performed",
+          "professionalTranslationApproval": "not-performed",
+          "rightsApproval": "not-performed",
+          "fullMethodApproval": "not-performed"
+        },
+        "primarySources": [
+          {
+            "id": "CONTRAN432-2013-AnnexI",
+            "edition": "Resolução CONTRAN 432, 23 January 2013, Annex I",
+            "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/resolu-o-uo-432-2013c.pdf",
+            "files": [
+              {
+                "file": "seven-primary-documents-final35/contran432-2013.pdf",
+                "bytes": 52515,
+                "sha256": "483b560740d342d28e14ec8cb54f9e37bd1f254d1b8c58de97fa30dd19cb86e2"
+              },
+              {
+                "file": "seven-primary-documents-final35/contran432-2013-p6.png",
+                "bytes": 348525,
+                "sha256": "1bcee2ab1488a479bd55da7f3e7294a85b64aacbb8f0494834e919bf3a3c63d2"
+              }
+            ],
+            "readScope": "Official PDF personally read Articles 4–7 and Annex I; Annex I PDF page 6 table and footnotes personally viewed. Annex II page 7 viewed but psychomotor assessment is outside numeric review.",
+            "confirmed": [
+              "Measured and considered values are in mg/L. Measured value has two decimal places. Subtract maximum admissible error and truncate considered value to two decimals, without rounding.",
+              "Printed error below 0.40 is 0.032 mg/L; above 0.40 to 2 is 8%; above 2 is 30%. The wording leaves exactly 0.40 unstated, but Annex I explicitly lists MR 0.40 and VC 0.36."
+            ],
+            "unchecked": [
+              "Present legal validity and superseding metrology rules",
+              "Instrument approval/calibration/verification",
+              "Legal classification, driver fitness, sanctions or present-day clinical interpretation"
+            ]
+          }
+        ]
+      },
+      "evidencePath": "reports/review-20261003/seven-primary-independent-source-check-final35.json",
+      "evidenceSha256": "dca93fed75cf2559c3ef39c581218fd9c4e604d0bbbcd787556bc8ef14590e85",
+      "independentPeer": {
+        "status": "pending-independent-package-peer",
+        "scope": "Western own primary derivation before imports and actual Node/VM/Chromium selected-math evidence; no new independent source rederivation claimed by this packaging preparation."
+      },
+      "implementations": [
+        {
+          "file": "apps/website/private/tool-code/etilometro-ctb/calculator.js",
+          "sha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/etilometro-ctb/calculator.js",
+          "sha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+        },
+        {
+          "file": "apps/command-center/private/tool-code/etilometro-ctb/calculator.js",
+          "sha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+        }
+      ],
+      "qualifications": [
+        "Current legislation/metrology and legal/clinical categories",
+        "Source references/edition conflicts and raw parity/display observations preserved; no unscoped outputs or diagnosis/legal/forensic/follow-up decisions approved."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "CONTRAN 432/2013 Anexo I:erro 0,032/8%/30%; truncamento 2 decimais; aplicação Brasil",
+    "implementationVersion": "etilometro-ctb@native-2026-10-03+f6980084a12b",
+    "currentMethodSource": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucao-no-432-de-23-de-janeiro-de-2013",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "VC = MR − EM , com duas casas decimais, desprezando as demais (sem arredondamento). Erro máximo admissível (EM): MR inferior a 0,40 mg/L = 0,032 mg/L; MR de 0,40 até 2,00 mg/L = 8% da MR; MR acima de 2,00 mg/L = 30% da MR. Infração (art. 165): MR ≥ 0,05 mg/L (VC ≥ 0,01). Crime (art. 306): MR ≥ 0,34 mg/L (VC ≥ 0,30 mg/L, equivalente a 6 dg/L de sangue).",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "mr",
+            "label": "Medição realizada pelo etilômetro (MR)",
+            "type": "num",
+            "min": 0,
+            "max": 5,
+            "unit": "mg/L de ar",
+            "optional": false,
+            "options": null
+          }
+        ],
+        "hash": "7896a74eae8902b6dcedb8dbb88c81e96b5563f620bee2abb99b5462dbb2fcee"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Brasil. Conselho Nacional de Trânsito. Resolução Contran nº 432, de 23 de janeiro de 2013 (procedimentos de fiscalização do consumo de álcool, Anexo I).",
+          "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucao-no-432-de-23-de-janeiro-de-2013",
+          "class": "primary-legislative-text-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "edition": "CONTRAN Resolution 432 of 23 January 2013; DOU 29 January 2013; page revision 20 December 2022.",
+          "conferred": "Articles 4, 6 and 7: instrument tolerance deducted, measured thresholds 0.05 and 0.34 mg/L. Annex numerical tolerance table was not included in the page text."
+        },
+        {
+          "citation": "Brasil. Lei nº 9.503, de 23 de setembro de 1997: Código de Trânsito Brasileiro (arts. 165, 276 e 306), texto compilado.",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm",
+          "class": "primary-legislative-text-accessed",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "edition": "Brazil Traffic Code 9.503/1997, compiled text checked 2026-10-03.",
+          "conferred": "Brazil-specific jurisdiction; not a universal international traffic rule."
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T21:50:52.213Z",
+        "total": 206,
+        "passed": 206,
+        "sourceRowCount": 206,
+        "uniqueApiInputCount": 206,
+        "sourceContextCount": 206,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "f6c5f8caa27eb69ec4d4f746bf808d2b1336d81fae0b59ee483a6c5bf4f8522d",
+          "total": 206,
+          "bankRowCount": 206,
+          "uniqueApiInputCount": 206,
+          "sourceContextCount": 206,
+          "fullStoredSourceRows": 206,
+          "localRejectionContractCount": 0,
+          "excludedSourceObservationCount": 0,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/seven-primary-independent-expectations-final35.json",
+              "sha256": "7fc110068db25fd0f4a5d2f53569d24fa93b6fa05ac3486d752814c33204e41e"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/seven-primary-independent-source-check-final35.json",
+            "sha256": "dca93fed75cf2559c3ef39c581218fd9c4e604d0bbbcd787556bc8ef14590e85"
+          },
+          "packagingRequirement": "Copy every complete bank byte exactly. Rebind future source/edition/code amendments explicitly; no rounding/clinical/rights scope expansion."
+        },
+        "scope": "Only two-decimal MR, error subtraction and truncation. 2013 table arithmetic, not current legal decision or instrument certification.",
+        "sourceEvidence": {
+          "review": {
+            "file": "reports/review-20261003/seven-primary-source-review-final35.json",
+            "sha256": "030c9299a4eef7b89ff75601532949784448b173e52da8b014b56597b14eef48"
+          },
+          "reading": {
+            "id": "etilometro-ctb",
+            "currentMethodVersion": "CONTRAN 432/2013 Anexo I:erro 0,032/8%/30%; truncamento 2 decimais; aplicação Brasil",
+            "currentMethodSource": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucao-no-432-de-23-de-janeiro-de-2013",
+            "recordBinding": {
+              "file": "reports/review-20261003/seven-primary-frozen-inputs-final35/selected-records/etilometro-ctb.json",
+              "sha256": "f4ae537e79b8e5cf3137ab3e3434b09b4b83bb0b142c95cdb3d192ffe1ac0af4"
+            },
+            "adapterBindings": [
+              {
+                "file": "apps/website/private/tool-code/etilometro-ctb/calculator.js",
+                "sha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3",
+                "bytes": 5223,
+                "frozenFile": "reports/review-20261003/seven-primary-frozen-inputs-final35/apps/website/private/tool-code/etilometro-ctb/calculator.js",
+                "currentSha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+              },
+              {
+                "file": "apps/dashboard/private/tool-code/etilometro-ctb/calculator.js",
+                "sha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3",
+                "bytes": 5223,
+                "frozenFile": "reports/review-20261003/seven-primary-frozen-inputs-final35/apps/dashboard/private/tool-code/etilometro-ctb/calculator.js",
+                "currentSha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+              },
+              {
+                "file": "apps/command-center/private/tool-code/etilometro-ctb/calculator.js",
+                "sha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3",
+                "bytes": 5223,
+                "frozenFile": "reports/review-20261003/seven-primary-frozen-inputs-final35/apps/command-center/private/tool-code/etilometro-ctb/calculator.js",
+                "currentSha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+              }
+            ],
+            "ownSourceInputs": 206,
+            "observedAdapterRows": 618,
+            "sourceIds": [
+              "CONTRAN432-2013-AnnexI"
+            ],
+            "scope": "Only two-decimal MR, error subtraction and truncation. 2013 table arithmetic, not current legal decision or instrument certification.",
+            "status": "bounded-arithmetic-confirmed",
+            "unchecked": [
+              "Current legislation/metrology and legal/clinical categories"
+            ],
+            "clinicalApproval": "not-performed",
+            "professionalTranslationApproval": "not-performed",
+            "rightsApproval": "not-performed",
+            "fullMethodApproval": "not-performed"
+          },
+          "primarySources": [
+            {
+              "id": "CONTRAN432-2013-AnnexI",
+              "edition": "Resolução CONTRAN 432, 23 January 2013, Annex I",
+              "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/resolu-o-uo-432-2013c.pdf",
+              "files": [
+                {
+                  "file": "seven-primary-documents-final35/contran432-2013.pdf",
+                  "bytes": 52515,
+                  "sha256": "483b560740d342d28e14ec8cb54f9e37bd1f254d1b8c58de97fa30dd19cb86e2"
+                },
+                {
+                  "file": "seven-primary-documents-final35/contran432-2013-p6.png",
+                  "bytes": 348525,
+                  "sha256": "1bcee2ab1488a479bd55da7f3e7294a85b64aacbb8f0494834e919bf3a3c63d2"
+                }
+              ],
+              "readScope": "Official PDF personally read Articles 4–7 and Annex I; Annex I PDF page 6 table and footnotes personally viewed. Annex II page 7 viewed but psychomotor assessment is outside numeric review.",
+              "confirmed": [
+                "Measured and considered values are in mg/L. Measured value has two decimal places. Subtract maximum admissible error and truncate considered value to two decimals, without rounding.",
+                "Printed error below 0.40 is 0.032 mg/L; above 0.40 to 2 is 8%; above 2 is 30%. The wording leaves exactly 0.40 unstated, but Annex I explicitly lists MR 0.40 and VC 0.36."
+              ],
+              "unchecked": [
+                "Present legal validity and superseding metrology rules",
+                "Instrument approval/calibration/verification",
+                "Legal classification, driver fitness, sanctions or present-day clinical interpretation"
+              ]
+            }
+          ]
+        },
+        "evidencePath": "reports/review-20261003/seven-primary-independent-source-check-final35.json",
+        "evidenceSha256": "dca93fed75cf2559c3ef39c581218fd9c4e604d0bbbcd787556bc8ef14590e85",
+        "independentPeer": {
+          "status": "pending-independent-package-peer",
+          "scope": "Western own primary derivation before imports and actual Node/VM/Chromium selected-math evidence; no new independent source rederivation claimed by this packaging preparation."
+        },
+        "implementations": [
+          {
+            "file": "apps/website/private/tool-code/etilometro-ctb/calculator.js",
+            "sha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/etilometro-ctb/calculator.js",
+            "sha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+          },
+          {
+            "file": "apps/command-center/private/tool-code/etilometro-ctb/calculator.js",
+            "sha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+          }
+        ],
+        "qualifications": [
+          "Current legislation/metrology and legal/clinical categories",
+          "Source references/edition conflicts and raw parity/display observations preserved; no unscoped outputs or diagnosis/legal/forensic/follow-up decisions approved."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+    },
+    "limits": "A Resolução 432/2013 distingue medição realizada e valor considerado, após desconto do erro metrológico, e exige instrumento aprovado e verificado. O enquadramento também admite outros meios, inclusive sangue e conjunto de sinais psicomotores. Um cálculo de etilômetro isolado não constitui avaliação clínica, prova de aptidão para dirigir ou decisão jurídica; a vigência do CTB e da legislação metrológica deve acompanhar o caso.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:02.954Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "A tabela CONTRAN e texto CTB não foram lidos neste lote; erros metrológicos, truncamento, vigência e distinção infração/crime precisam de fonte oficial.",
+        "Vigência consolidada atual do CTB/INMETRO e todos os valores da tabela não auditados; o resultado numérico não determina sozinho infração/crime por todos os meios previstos."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/etilometro-ctb/calculator.js",
+    "bytes": 5223,
+    "sha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "4fa61d8c0c3398399001763d7a4d871b371c93c0ed7dbfaaa2fd4823ee648583",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "4143cc7ed4a294d5d012c084e0a364af3fd4b5cfd1d077cf923b298f29b70d9e",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "4143cc7ed4a294d5d012c084e0a364af3fd4b5cfd1d077cf923b298f29b70d9e",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

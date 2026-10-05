@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Reject null input",
+    "input": null,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject array input",
+    "input": [],
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject string input",
+    "input": "invalid",
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject numeric input",
+    "input": 1,
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": null
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject missing required field mr",
+    "input": {},
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "mr"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject empty required field mr",
+    "input": {
+      "mr": ""
+    },
+    "expected": {
+      "code": "REQUIRED_FIELD",
+      "field": "mr"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"NaN\" mr",
+    "input": {
+      "mr": "NaN"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "mr"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"Infinity\" mr",
+    "input": {
+      "mr": "Infinity"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "mr"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"1e309\" mr",
+    "input": {
+      "mr": "1e309"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "mr"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric \"invalid\" mr",
+    "input": {
+      "mr": "invalid"
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "mr"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric {} mr",
+    "input": {
+      "mr": {}
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "mr"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject invalid numeric true mr",
+    "input": {
+      "mr": true
+    },
+    "expected": {
+      "code": "INVALID_INPUT",
+      "field": "mr"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject below documented minimum mr",
+    "input": {
+      "mr": -1
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "mr"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  },
+  {
+    "name": "Reject above documented maximum mr",
+    "input": {
+      "mr": 6
+    },
+    "expected": {
+      "code": "OUT_OF_RANGE",
+      "field": "mr"
+    },
+    "scope": "Independently constructed schema/domain refusal; code observed from the pinned adapter, no clinical oracle"
+  }
+]
