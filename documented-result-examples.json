@@ -1,0 +1,4284 @@
+{
+  "id": "etilometro-ctb",
+  "implementationVersion": "etilometro-ctb@native-2026-10-05+dec9fa1b484a",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "MR 0,05: VC 0,01 (infração)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Medição realizada (MR)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,05 mg/L",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Erro máximo admissível (EM)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,032 mg/L (fixo, MR < 0,40)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente aproximado no sangue (VC × 2)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,02 g/L",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infração administrativa do art. 165 do CTB (medição ≥ 0,05 mg/L)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,33: VC 0,29 (infração, sem crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Medição realizada (MR)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,33 mg/L",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Erro máximo admissível (EM)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,032 mg/L (fixo, MR < 0,40)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente aproximado no sangue (VC × 2)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,58 g/L",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infração administrativa do art. 165 do CTB (medição ≥ 0,05 mg/L)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,34: VC 0,30 (crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Medição realizada (MR)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,34 mg/L",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Erro máximo admissível (EM)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,032 mg/L (fixo, MR < 0,40)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente aproximado no sangue (VC × 2)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,60 g/L",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infração do art. 165 do CTB e crime do art. 306 (valor considerado ≥ 0,30 mg/L)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,64: EM 8% = 0,0512; VC 0,58 (tabela oficial)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Medição realizada (MR)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,64 mg/L",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Erro máximo admissível (EM)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,051 mg/L (8% da MR)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente aproximado no sangue (VC × 2)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1,16 g/L",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infração do art. 165 do CTB e crime do art. 306 (valor considerado ≥ 0,30 mg/L)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 1,00: VC 0,92",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Medição realizada (MR)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1,00 mg/L",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Erro máximo admissível (EM)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,080 mg/L (8% da MR)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente aproximado no sangue (VC × 2)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1,84 g/L",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infração do art. 165 do CTB e crime do art. 306 (valor considerado ≥ 0,30 mg/L)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 2,50: EM 30% = 0,75; VC 1,75",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Medição realizada (MR)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "2,50 mg/L",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Erro máximo admissível (EM)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,750 mg/L (30% da MR)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente aproximado no sangue (VC × 2)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "3,50 g/L",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infração do art. 165 do CTB e crime do art. 306 (valor considerado ≥ 0,30 mg/L)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,04: VC 0,00 (não caracteriza pelo etilômetro)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Medição realizada (MR)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,04 mg/L",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Erro máximo admissível (EM)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,032 mg/L (fixo, MR < 0,40)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente aproximado no sangue (VC × 2)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,00 g/L",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Abaixo do valor que caracteriza infração pelo etilômetro (medição < 0,05 mg/L)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Sinais de alteração da capacidade psicomotora (Anexo II da Resolução 432) também caracterizam a infração, independentemente do etilômetro.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "MR 0,05: VC 0,01 (infração)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Measurement performed (MR)",
+                "locale": "en",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.05 mg/L",
+                "locale": "en",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.05
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maximum permissible error (ME)",
+                "locale": "en",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L (fixed, MR < 0,40)",
+                "locale": "en",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Approximate blood equivalent (VC × 2)",
+                "locale": "en",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.02 g/L",
+                "locale": "en",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.02
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Administrative offense under article 165 of the CTB (measurement ≥ 0,05 mg/L)",
+            "locale": "en",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,33: VC 0,29 (infração, sem crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Measurement performed (MR)",
+                "locale": "en",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.33 mg/L",
+                "locale": "en",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.33
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maximum permissible error (ME)",
+                "locale": "en",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L (fixed, MR < 0,40)",
+                "locale": "en",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Approximate blood equivalent (VC × 2)",
+                "locale": "en",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.58 g/L",
+                "locale": "en",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Administrative offense under article 165 of the CTB (measurement ≥ 0,05 mg/L)",
+            "locale": "en",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,34: VC 0,30 (crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Measurement performed (MR)",
+                "locale": "en",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.34 mg/L",
+                "locale": "en",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.34
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maximum permissible error (ME)",
+                "locale": "en",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L (fixed, MR < 0,40)",
+                "locale": "en",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Approximate blood equivalent (VC × 2)",
+                "locale": "en",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.60 g/L",
+                "locale": "en",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Offense under article 165 of the CTB and crime under article 306 (considered value ≥ 0,30 mg/L)",
+            "locale": "en",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,64: EM 8% = 0,0512; VC 0,58 (tabela oficial)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Measurement performed (MR)",
+                "locale": "en",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.64 mg/L",
+                "locale": "en",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.64
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maximum permissible error (ME)",
+                "locale": "en",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.051 mg/L (8% of MR)",
+                "locale": "en",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.051
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Approximate blood equivalent (VC × 2)",
+                "locale": "en",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1.16 g/L",
+                "locale": "en",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.16
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Offense under article 165 of the CTB and crime under article 306 (considered value ≥ 0,30 mg/L)",
+            "locale": "en",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 1,00: VC 0,92",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Measurement performed (MR)",
+                "locale": "en",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "1.00 mg/L",
+                "locale": "en",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maximum permissible error (ME)",
+                "locale": "en",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.080 mg/L (8% of MR)",
+                "locale": "en",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.08
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Approximate blood equivalent (VC × 2)",
+                "locale": "en",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1.84 g/L",
+                "locale": "en",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.84
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Offense under article 165 of the CTB and crime under article 306 (considered value ≥ 0,30 mg/L)",
+            "locale": "en",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 2,50: EM 30% = 0,75; VC 1,75",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Measurement performed (MR)",
+                "locale": "en",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "2.50 mg/L",
+                "locale": "en",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maximum permissible error (ME)",
+                "locale": "en",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.750 mg/L (30% of the MR)",
+                "locale": "en",
+                "template": "documented-authored-010ad6f9f422de33a6e9",
+                "sourceNumbers": [
+                  0.75
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Approximate blood equivalent (VC × 2)",
+                "locale": "en",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "3.50 g/L",
+                "locale": "en",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  3.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Offense under article 165 of the CTB and crime under article 306 (considered value ≥ 0,30 mg/L)",
+            "locale": "en",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,04: VC 0,00 (não caracteriza pelo etilômetro)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Measurement performed (MR)",
+                "locale": "en",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.04 mg/L",
+                "locale": "en",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.04
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maximum permissible error (ME)",
+                "locale": "en",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L (fixed, MR < 0,40)",
+                "locale": "en",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Approximate blood equivalent (VC × 2)",
+                "locale": "en",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.00 g/L",
+                "locale": "en",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Below the value that characterizes an infraction by breathalyzer (measurement < 0.05 mg/L)",
+            "locale": "en",
+            "template": "documented-authored-7e4d1e9ac568598ed88b"
+          },
+          "note": {
+            "text": "Signs of impairment of psychomotor capacity (Annex II of Resolution 432) also characterize the infraction, regardless of the breathalyzer.",
+            "locale": "en",
+            "template": "documented-authored-7ac894635933422f346f"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "MR 0,05: VC 0,01 (infração)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Medición realizada (MR)",
+                "locale": "es",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,05 mg/L",
+                "locale": "es",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.05
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Error máximo admisible (EM)",
+                "locale": "es",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fijo, MR < 0,40)",
+                "locale": "es",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente aproximado en sangre (VC × 2)",
+                "locale": "es",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,02 g/L",
+                "locale": "es",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.02
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infracción administrativa del art. 165 del CTB (medición ≥ 0,05 mg/L)",
+            "locale": "es",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,33: VC 0,29 (infração, sem crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Medición realizada (MR)",
+                "locale": "es",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,33 mg/L",
+                "locale": "es",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.33
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Error máximo admisible (EM)",
+                "locale": "es",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fijo, MR < 0,40)",
+                "locale": "es",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente aproximado en sangre (VC × 2)",
+                "locale": "es",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,58 g/L",
+                "locale": "es",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infracción administrativa del art. 165 del CTB (medición ≥ 0,05 mg/L)",
+            "locale": "es",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,34: VC 0,30 (crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Medición realizada (MR)",
+                "locale": "es",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,34 mg/L",
+                "locale": "es",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.34
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Error máximo admisible (EM)",
+                "locale": "es",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fijo, MR < 0,40)",
+                "locale": "es",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente aproximado en sangre (VC × 2)",
+                "locale": "es",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,60 g/L",
+                "locale": "es",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infracción del art. 165 del CTB y delito del art. 306 (valor considerado ≥ 0,30 mg/L)",
+            "locale": "es",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,64: EM 8% = 0,0512; VC 0,58 (tabela oficial)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Medición realizada (MR)",
+                "locale": "es",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,64 mg/L",
+                "locale": "es",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.64
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Error máximo admisible (EM)",
+                "locale": "es",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,051 mg/L (8% de la MR)",
+                "locale": "es",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.051
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente aproximado en sangre (VC × 2)",
+                "locale": "es",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1,16 g/L",
+                "locale": "es",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.16
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infracción del art. 165 del CTB y delito del art. 306 (valor considerado ≥ 0,30 mg/L)",
+            "locale": "es",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 1,00: VC 0,92",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Medición realizada (MR)",
+                "locale": "es",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "1,00 mg/L",
+                "locale": "es",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Error máximo admisible (EM)",
+                "locale": "es",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,080 mg/L (8% de la MR)",
+                "locale": "es",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.08
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente aproximado en sangre (VC × 2)",
+                "locale": "es",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1,84 g/L",
+                "locale": "es",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.84
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infracción del art. 165 del CTB y delito del art. 306 (valor considerado ≥ 0,30 mg/L)",
+            "locale": "es",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 2,50: EM 30% = 0,75; VC 1,75",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Medición realizada (MR)",
+                "locale": "es",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "2,50 mg/L",
+                "locale": "es",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Error máximo admisible (EM)",
+                "locale": "es",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,750 mg/L (30% de la MR)",
+                "locale": "es",
+                "template": "documented-authored-010ad6f9f422de33a6e9",
+                "sourceNumbers": [
+                  0.75
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente aproximado en sangre (VC × 2)",
+                "locale": "es",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "3,50 g/L",
+                "locale": "es",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  3.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infracción del art. 165 del CTB y delito del art. 306 (valor considerado ≥ 0,30 mg/L)",
+            "locale": "es",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,04: VC 0,00 (não caracteriza pelo etilômetro)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Medición realizada (MR)",
+                "locale": "es",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,04 mg/L",
+                "locale": "es",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.04
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Error máximo admisible (EM)",
+                "locale": "es",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fijo, MR < 0,40)",
+                "locale": "es",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente aproximado en sangre (VC × 2)",
+                "locale": "es",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,00 g/L",
+                "locale": "es",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Por debajo del valor que caracteriza infracción por el alcoholímetro (medición < 0,05 mg/L)",
+            "locale": "es",
+            "template": "documented-authored-7e4d1e9ac568598ed88b"
+          },
+          "note": {
+            "text": "Los signos de alteración de la capacidad psicomotora (Anexo II de la Resolución 432) también caracterizan la infracción, independientemente del alcoholímetro.",
+            "locale": "es",
+            "template": "documented-authored-7ac894635933422f346f"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "MR 0,05: VC 0,01 (infração)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Mesure réalisée (MR)",
+                "locale": "fr",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,05 mg/L",
+                "locale": "fr",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.05
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Erreur maximale admissible (EM)",
+                "locale": "fr",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fixe, MR < 0,40)",
+                "locale": "fr",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Équivalent approximatif dans le sang (VC × 2)",
+                "locale": "fr",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,02 g/L",
+                "locale": "fr",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.02
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infraction administrative de l’art. 165 du CTB (mesure ≥ 0,05 mg/L)",
+            "locale": "fr",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,33: VC 0,29 (infração, sem crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Mesure réalisée (MR)",
+                "locale": "fr",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,33 mg/L",
+                "locale": "fr",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.33
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Erreur maximale admissible (EM)",
+                "locale": "fr",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fixe, MR < 0,40)",
+                "locale": "fr",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Équivalent approximatif dans le sang (VC × 2)",
+                "locale": "fr",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,58 g/L",
+                "locale": "fr",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infraction administrative de l’art. 165 du CTB (mesure ≥ 0,05 mg/L)",
+            "locale": "fr",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,34: VC 0,30 (crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Mesure réalisée (MR)",
+                "locale": "fr",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,34 mg/L",
+                "locale": "fr",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.34
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Erreur maximale admissible (EM)",
+                "locale": "fr",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fixe, MR < 0,40)",
+                "locale": "fr",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Équivalent approximatif dans le sang (VC × 2)",
+                "locale": "fr",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,60 g/L",
+                "locale": "fr",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infraction de l’art. 165 du CTB et crime de l’art. 306 (valeur retenue ≥ 0,30 mg/L)",
+            "locale": "fr",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,64: EM 8% = 0,0512; VC 0,58 (tabela oficial)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Mesure réalisée (MR)",
+                "locale": "fr",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,64 mg/L",
+                "locale": "fr",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.64
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Erreur maximale admissible (EM)",
+                "locale": "fr",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,051 mg/L (8 % de la MR)",
+                "locale": "fr",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.051
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Équivalent approximatif dans le sang (VC × 2)",
+                "locale": "fr",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1,16 g/L",
+                "locale": "fr",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.16
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infraction de l’art. 165 du CTB et crime de l’art. 306 (valeur retenue ≥ 0,30 mg/L)",
+            "locale": "fr",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 1,00: VC 0,92",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Mesure réalisée (MR)",
+                "locale": "fr",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "1,00 mg/L",
+                "locale": "fr",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Erreur maximale admissible (EM)",
+                "locale": "fr",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,080 mg/L (8 % de la MR)",
+                "locale": "fr",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.08
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Équivalent approximatif dans le sang (VC × 2)",
+                "locale": "fr",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1,84 g/L",
+                "locale": "fr",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.84
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infraction de l’art. 165 du CTB et crime de l’art. 306 (valeur retenue ≥ 0,30 mg/L)",
+            "locale": "fr",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 2,50: EM 30% = 0,75; VC 1,75",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Mesure réalisée (MR)",
+                "locale": "fr",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "2,50 mg/L",
+                "locale": "fr",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Erreur maximale admissible (EM)",
+                "locale": "fr",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,750 mg/L (30% de la MR)",
+                "locale": "fr",
+                "template": "documented-authored-010ad6f9f422de33a6e9",
+                "sourceNumbers": [
+                  0.75
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Équivalent approximatif dans le sang (VC × 2)",
+                "locale": "fr",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "3,50 g/L",
+                "locale": "fr",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  3.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infraction de l’art. 165 du CTB et crime de l’art. 306 (valeur retenue ≥ 0,30 mg/L)",
+            "locale": "fr",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,04: VC 0,00 (não caracteriza pelo etilômetro)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Mesure réalisée (MR)",
+                "locale": "fr",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,04 mg/L",
+                "locale": "fr",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.04
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Erreur maximale admissible (EM)",
+                "locale": "fr",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fixe, MR < 0,40)",
+                "locale": "fr",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Équivalent approximatif dans le sang (VC × 2)",
+                "locale": "fr",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,00 g/L",
+                "locale": "fr",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "En dessous de la valeur qui caractérise une infraction au détecteur d’alcool (mesure < 0,05 mg/L)",
+            "locale": "fr",
+            "template": "documented-authored-7e4d1e9ac568598ed88b"
+          },
+          "note": {
+            "text": "Des signes d’altération de la capacité psychomotrice (annexe II de la Résolution 432) caractérisent également l’infraction, indépendamment du détecteur d’alcool.",
+            "locale": "fr",
+            "template": "documented-authored-7ac894635933422f346f"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "MR 0,05: VC 0,01 (infração)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Durchgeführte Messung (MR)",
+                "locale": "de",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,05 mg/L",
+                "locale": "de",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.05
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maximal zulässiger Fehler (EM)",
+                "locale": "de",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fest, MR < 0,40)",
+                "locale": "de",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Ungefährer Blutäquivalentwert (VC × 2)",
+                "locale": "de",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,02 g/L",
+                "locale": "de",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.02
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Ordnungswidrigkeit nach Artikel 165 des CTB (Messwert ≥ 0,05 mg/L)",
+            "locale": "de",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,33: VC 0,29 (infração, sem crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Durchgeführte Messung (MR)",
+                "locale": "de",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,33 mg/L",
+                "locale": "de",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.33
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maximal zulässiger Fehler (EM)",
+                "locale": "de",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fest, MR < 0,40)",
+                "locale": "de",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Ungefährer Blutäquivalentwert (VC × 2)",
+                "locale": "de",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,58 g/L",
+                "locale": "de",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Ordnungswidrigkeit nach Artikel 165 des CTB (Messwert ≥ 0,05 mg/L)",
+            "locale": "de",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,34: VC 0,30 (crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Durchgeführte Messung (MR)",
+                "locale": "de",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,34 mg/L",
+                "locale": "de",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.34
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maximal zulässiger Fehler (EM)",
+                "locale": "de",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fest, MR < 0,40)",
+                "locale": "de",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Ungefährer Blutäquivalentwert (VC × 2)",
+                "locale": "de",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,60 g/L",
+                "locale": "de",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Verstoß gegen Artikel 165 des CTB und Straftat nach Artikel 306 (berücksichtigter Wert ≥ 0,30 mg/L)",
+            "locale": "de",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,64: EM 8% = 0,0512; VC 0,58 (tabela oficial)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Durchgeführte Messung (MR)",
+                "locale": "de",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,64 mg/L",
+                "locale": "de",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.64
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maximal zulässiger Fehler (EM)",
+                "locale": "de",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,051 mg/L (8 % des MR)",
+                "locale": "de",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.051
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Ungefährer Blutäquivalentwert (VC × 2)",
+                "locale": "de",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1,16 g/L",
+                "locale": "de",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.16
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Verstoß gegen Artikel 165 des CTB und Straftat nach Artikel 306 (berücksichtigter Wert ≥ 0,30 mg/L)",
+            "locale": "de",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 1,00: VC 0,92",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Durchgeführte Messung (MR)",
+                "locale": "de",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "1,00 mg/L",
+                "locale": "de",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maximal zulässiger Fehler (EM)",
+                "locale": "de",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,080 mg/L (8 % des MR)",
+                "locale": "de",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.08
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Ungefährer Blutäquivalentwert (VC × 2)",
+                "locale": "de",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1,84 g/L",
+                "locale": "de",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.84
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Verstoß gegen Artikel 165 des CTB und Straftat nach Artikel 306 (berücksichtigter Wert ≥ 0,30 mg/L)",
+            "locale": "de",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 2,50: EM 30% = 0,75; VC 1,75",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Durchgeführte Messung (MR)",
+                "locale": "de",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "2,50 mg/L",
+                "locale": "de",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maximal zulässiger Fehler (EM)",
+                "locale": "de",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,750 mg/L (30% der MR)",
+                "locale": "de",
+                "template": "documented-authored-010ad6f9f422de33a6e9",
+                "sourceNumbers": [
+                  0.75
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Ungefährer Blutäquivalentwert (VC × 2)",
+                "locale": "de",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "3,50 g/L",
+                "locale": "de",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  3.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Verstoß gegen Artikel 165 des CTB und Straftat nach Artikel 306 (berücksichtigter Wert ≥ 0,30 mg/L)",
+            "locale": "de",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,04: VC 0,00 (não caracteriza pelo etilômetro)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Durchgeführte Messung (MR)",
+                "locale": "de",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,04 mg/L",
+                "locale": "de",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.04
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Maximal zulässiger Fehler (EM)",
+                "locale": "de",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fest, MR < 0,40)",
+                "locale": "de",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Ungefährer Blutäquivalentwert (VC × 2)",
+                "locale": "de",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,00 g/L",
+                "locale": "de",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Unterhalb des Werts, der eine Ordnungswidrigkeit durch das Alkoholmessgerät kennzeichnet (Messung < 0,05 mg/L)",
+            "locale": "de",
+            "template": "documented-authored-7e4d1e9ac568598ed88b"
+          },
+          "note": {
+            "text": "Anzeichen einer Beeinträchtigung der psychomotorischen Leistungsfähigkeit (Anhang II der Resolution 432) kennzeichnen die Ordnungswidrigkeit ebenfalls, unabhängig vom Alkoholmessgerät.",
+            "locale": "de",
+            "template": "documented-authored-7ac894635933422f346f"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "MR 0,05: VC 0,01 (infração)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Misurazione effettuata (MR)",
+                "locale": "it",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,05 mg/L",
+                "locale": "it",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.05
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Errore massimo ammissibile (EM)",
+                "locale": "it",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fisso, MR < 0,40)",
+                "locale": "it",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente approssimativo nel sangue (VC × 2)",
+                "locale": "it",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,02 g/L",
+                "locale": "it",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.02
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infrazione amministrativa dell’art. 165 del CTB (misurazione ≥ 0,05 mg/L)",
+            "locale": "it",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,33: VC 0,29 (infração, sem crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Misurazione effettuata (MR)",
+                "locale": "it",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,33 mg/L",
+                "locale": "it",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.33
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Errore massimo ammissibile (EM)",
+                "locale": "it",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fisso, MR < 0,40)",
+                "locale": "it",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente approssimativo nel sangue (VC × 2)",
+                "locale": "it",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,58 g/L",
+                "locale": "it",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infrazione amministrativa dell’art. 165 del CTB (misurazione ≥ 0,05 mg/L)",
+            "locale": "it",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,34: VC 0,30 (crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Misurazione effettuata (MR)",
+                "locale": "it",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,34 mg/L",
+                "locale": "it",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.34
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Errore massimo ammissibile (EM)",
+                "locale": "it",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fisso, MR < 0,40)",
+                "locale": "it",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente approssimativo nel sangue (VC × 2)",
+                "locale": "it",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,60 g/L",
+                "locale": "it",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infrazione dell’art. 165 del CTB e reato dell’art. 306 (valore considerato ≥ 0,30 mg/L)",
+            "locale": "it",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,64: EM 8% = 0,0512; VC 0,58 (tabela oficial)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Misurazione effettuata (MR)",
+                "locale": "it",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,64 mg/L",
+                "locale": "it",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.64
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Errore massimo ammissibile (EM)",
+                "locale": "it",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,051 mg/L (8% della MR)",
+                "locale": "it",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.051
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente approssimativo nel sangue (VC × 2)",
+                "locale": "it",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1,16 g/L",
+                "locale": "it",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.16
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infrazione dell’art. 165 del CTB e reato dell’art. 306 (valore considerato ≥ 0,30 mg/L)",
+            "locale": "it",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 1,00: VC 0,92",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Misurazione effettuata (MR)",
+                "locale": "it",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "1,00 mg/L",
+                "locale": "it",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Errore massimo ammissibile (EM)",
+                "locale": "it",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,080 mg/L (8% della MR)",
+                "locale": "it",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.08
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente approssimativo nel sangue (VC × 2)",
+                "locale": "it",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1,84 g/L",
+                "locale": "it",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.84
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infrazione dell’art. 165 del CTB e reato dell’art. 306 (valore considerato ≥ 0,30 mg/L)",
+            "locale": "it",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 2,50: EM 30% = 0,75; VC 1,75",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Misurazione effettuata (MR)",
+                "locale": "it",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "2,50 mg/L",
+                "locale": "it",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Errore massimo ammissibile (EM)",
+                "locale": "it",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,750 mg/L (30% della MR)",
+                "locale": "it",
+                "template": "documented-authored-010ad6f9f422de33a6e9",
+                "sourceNumbers": [
+                  0.75
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente approssimativo nel sangue (VC × 2)",
+                "locale": "it",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "3,50 g/L",
+                "locale": "it",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  3.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Infrazione dell’art. 165 del CTB e reato dell’art. 306 (valore considerato ≥ 0,30 mg/L)",
+            "locale": "it",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,04: VC 0,00 (não caracteriza pelo etilômetro)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Misurazione effettuata (MR)",
+                "locale": "it",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0,04 mg/L",
+                "locale": "it",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.04
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Errore massimo ammissibile (EM)",
+                "locale": "it",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0,032 mg/L (fisso, MR < 0,40)",
+                "locale": "it",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "Equivalente approssimativo nel sangue (VC × 2)",
+                "locale": "it",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0,00 g/L",
+                "locale": "it",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Al di sotto del valore che caratterizza un’infrazione con l’etilometro (misurazione < 0,05 mg/L)",
+            "locale": "it",
+            "template": "documented-authored-7e4d1e9ac568598ed88b"
+          },
+          "note": {
+            "text": "I segni di alterazione della capacità psicomotoria (Allegato II della Risoluzione 432) caratterizzano anche l’infrazione, indipendentemente dall’etilometro.",
+            "locale": "it",
+            "template": "documented-authored-7ac894635933422f346f"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "MR 0,05: VC 0,01 (infração)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "القياس المُجرى (MR)",
+                "locale": "ar",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "٠٫٠٥ mg/L",
+                "locale": "ar",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.05
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "الحد الأقصى للخطأ المسموح به (EM)",
+                "locale": "ar",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "٠٫٠٣٢ mg/L (ثابت، MR < 0,40)",
+                "locale": "ar",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "المكافئ التقريبي في الدم (VC × 2)",
+                "locale": "ar",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "٠٫٠٢ g/L",
+                "locale": "ar",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.02
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "مخالفة إدارية بموجب المادة 165 من CTB (القياس ≥ 0,05 mg/L)",
+            "locale": "ar",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,33: VC 0,29 (infração, sem crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "القياس المُجرى (MR)",
+                "locale": "ar",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "٠٫٣٣ mg/L",
+                "locale": "ar",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.33
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "الحد الأقصى للخطأ المسموح به (EM)",
+                "locale": "ar",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "٠٫٠٣٢ mg/L (ثابت، MR < 0,40)",
+                "locale": "ar",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "المكافئ التقريبي في الدم (VC × 2)",
+                "locale": "ar",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "٠٫٥٨ g/L",
+                "locale": "ar",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "مخالفة إدارية بموجب المادة 165 من CTB (القياس ≥ 0,05 mg/L)",
+            "locale": "ar",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,34: VC 0,30 (crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "القياس المُجرى (MR)",
+                "locale": "ar",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "٠٫٣٤ mg/L",
+                "locale": "ar",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.34
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "الحد الأقصى للخطأ المسموح به (EM)",
+                "locale": "ar",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "٠٫٠٣٢ mg/L (ثابت، MR < 0,40)",
+                "locale": "ar",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "المكافئ التقريبي في الدم (VC × 2)",
+                "locale": "ar",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "٠٫٦٠ g/L",
+                "locale": "ar",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "مخالفة للمادة 165 من CTB وجريمة للمادة 306 (القيمة المعتمدة ≥ 0,30 mg/L)",
+            "locale": "ar",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,64: EM 8% = 0,0512; VC 0,58 (tabela oficial)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "القياس المُجرى (MR)",
+                "locale": "ar",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "٠٫٦٤ mg/L",
+                "locale": "ar",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.64
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "الحد الأقصى للخطأ المسموح به (EM)",
+                "locale": "ar",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "٠٫٠٥١ mg/L (8% من MR)",
+                "locale": "ar",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.051
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "المكافئ التقريبي في الدم (VC × 2)",
+                "locale": "ar",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "١٫١٦ g/L",
+                "locale": "ar",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.16
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "مخالفة للمادة 165 من CTB وجريمة للمادة 306 (القيمة المعتمدة ≥ 0,30 mg/L)",
+            "locale": "ar",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 1,00: VC 0,92",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "القياس المُجرى (MR)",
+                "locale": "ar",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "١٫٠٠ mg/L",
+                "locale": "ar",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "الحد الأقصى للخطأ المسموح به (EM)",
+                "locale": "ar",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "٠٫٠٨٠ mg/L (8% من MR)",
+                "locale": "ar",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.08
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "المكافئ التقريبي في الدم (VC × 2)",
+                "locale": "ar",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "١٫٨٤ g/L",
+                "locale": "ar",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.84
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "مخالفة للمادة 165 من CTB وجريمة للمادة 306 (القيمة المعتمدة ≥ 0,30 mg/L)",
+            "locale": "ar",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 2,50: EM 30% = 0,75; VC 1,75",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "القياس المُجرى (MR)",
+                "locale": "ar",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "٢٫٥٠ mg/L",
+                "locale": "ar",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "الحد الأقصى للخطأ المسموح به (EM)",
+                "locale": "ar",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "٠٫٧٥٠ mg/L (30% من MR)",
+                "locale": "ar",
+                "template": "documented-authored-010ad6f9f422de33a6e9",
+                "sourceNumbers": [
+                  0.75
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "المكافئ التقريبي في الدم (VC × 2)",
+                "locale": "ar",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "٣٫٥٠ g/L",
+                "locale": "ar",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  3.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "مخالفة للمادة 165 من CTB وجريمة للمادة 306 (القيمة المعتمدة ≥ 0,30 mg/L)",
+            "locale": "ar",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,04: VC 0,00 (não caracteriza pelo etilômetro)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "القياس المُجرى (MR)",
+                "locale": "ar",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "٠٫٠٤ mg/L",
+                "locale": "ar",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.04
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "الحد الأقصى للخطأ المسموح به (EM)",
+                "locale": "ar",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "٠٫٠٣٢ mg/L (ثابت، MR < 0,40)",
+                "locale": "ar",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "المكافئ التقريبي في الدم (VC × 2)",
+                "locale": "ar",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "٠٫٠٠ g/L",
+                "locale": "ar",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "أقل من القيمة التي تُميّز المخالفة بجهاز قياس الكحول (القياس < 0,05 mg/L)",
+            "locale": "ar",
+            "template": "documented-authored-7e4d1e9ac568598ed88b"
+          },
+          "note": {
+            "text": "كما أن علامات اضطراب القدرة النفسحركية (الملحق II من القرار 432) تُعدّ أيضًا مخالفة، بغض النظر عن جهاز قياس الكحول.",
+            "locale": "ar",
+            "template": "documented-authored-7ac894635933422f346f"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "MR 0,05: VC 0,01 (infração)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "所进行的测量（MR）",
+                "locale": "zh",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.05 mg/L",
+                "locale": "zh",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.05
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "允许最大误差（EM）",
+                "locale": "zh",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L（固定，MR < 0,40）",
+                "locale": "zh",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "血液近似当量（VC × 2）",
+                "locale": "zh",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.02 g/L",
+                "locale": "zh",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.02
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB 第165条行政违法（测量值 ≥ 0,05 mg/L）",
+            "locale": "zh",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,33: VC 0,29 (infração, sem crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "所进行的测量（MR）",
+                "locale": "zh",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.33 mg/L",
+                "locale": "zh",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.33
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "允许最大误差（EM）",
+                "locale": "zh",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L（固定，MR < 0,40）",
+                "locale": "zh",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "血液近似当量（VC × 2）",
+                "locale": "zh",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.58 g/L",
+                "locale": "zh",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB 第165条行政违法（测量值 ≥ 0,05 mg/L）",
+            "locale": "zh",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,34: VC 0,30 (crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "所进行的测量（MR）",
+                "locale": "zh",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.34 mg/L",
+                "locale": "zh",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.34
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "允许最大误差（EM）",
+                "locale": "zh",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L（固定，MR < 0,40）",
+                "locale": "zh",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "血液近似当量（VC × 2）",
+                "locale": "zh",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.60 g/L",
+                "locale": "zh",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB 第165条违法和第306条犯罪（采用值 ≥ 0,30 mg/L）",
+            "locale": "zh",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,64: EM 8% = 0,0512; VC 0,58 (tabela oficial)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "所进行的测量（MR）",
+                "locale": "zh",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.64 mg/L",
+                "locale": "zh",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.64
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "允许最大误差（EM）",
+                "locale": "zh",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.051 mg/L（MR 的 8%）",
+                "locale": "zh",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.051
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "血液近似当量（VC × 2）",
+                "locale": "zh",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1.16 g/L",
+                "locale": "zh",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.16
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB 第165条违法和第306条犯罪（采用值 ≥ 0,30 mg/L）",
+            "locale": "zh",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 1,00: VC 0,92",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "所进行的测量（MR）",
+                "locale": "zh",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "1.00 mg/L",
+                "locale": "zh",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "允许最大误差（EM）",
+                "locale": "zh",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.080 mg/L（MR 的 8%）",
+                "locale": "zh",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.08
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "血液近似当量（VC × 2）",
+                "locale": "zh",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1.84 g/L",
+                "locale": "zh",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.84
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB 第165条违法和第306条犯罪（采用值 ≥ 0,30 mg/L）",
+            "locale": "zh",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 2,50: EM 30% = 0,75; VC 1,75",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "所进行的测量（MR）",
+                "locale": "zh",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "2.50 mg/L",
+                "locale": "zh",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "允许最大误差（EM）",
+                "locale": "zh",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.750 mg/L（MR 的 30%）",
+                "locale": "zh",
+                "template": "documented-authored-010ad6f9f422de33a6e9",
+                "sourceNumbers": [
+                  0.75
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "血液近似当量（VC × 2）",
+                "locale": "zh",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "3.50 g/L",
+                "locale": "zh",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  3.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB 第165条违法和第306条犯罪（采用值 ≥ 0,30 mg/L）",
+            "locale": "zh",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,04: VC 0,00 (não caracteriza pelo etilômetro)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "所进行的测量（MR）",
+                "locale": "zh",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.04 mg/L",
+                "locale": "zh",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.04
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "允许最大误差（EM）",
+                "locale": "zh",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L（固定，MR < 0,40）",
+                "locale": "zh",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "血液近似当量（VC × 2）",
+                "locale": "zh",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.00 g/L",
+                "locale": "zh",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "低于呼气酒精测试仪构成违法的数值（测量值 < 0,05 mg/L）",
+            "locale": "zh",
+            "template": "documented-authored-7e4d1e9ac568598ed88b"
+          },
+          "note": {
+            "text": "精神运动能力受损的迹象（第 432 号决议附件 II）也构成该违法行为，与呼气酒精测试仪无关。",
+            "locale": "zh",
+            "template": "documented-authored-7ac894635933422f346f"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "MR 0,05: VC 0,01 (infração)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "実施された測定（MR）",
+                "locale": "ja",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.05 mg/L",
+                "locale": "ja",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.05
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "許容最大誤差（EM）",
+                "locale": "ja",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L（固定、MR < 0,40）",
+                "locale": "ja",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "血中のおおよその相当値（VC × 2）",
+                "locale": "ja",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.02 g/L",
+                "locale": "ja",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.02
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB第165条の行政違反（測定値 ≥ 0,05 mg/L）",
+            "locale": "ja",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,33: VC 0,29 (infração, sem crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "実施された測定（MR）",
+                "locale": "ja",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.33 mg/L",
+                "locale": "ja",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.33
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "許容最大誤差（EM）",
+                "locale": "ja",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L（固定、MR < 0,40）",
+                "locale": "ja",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "血中のおおよその相当値（VC × 2）",
+                "locale": "ja",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.58 g/L",
+                "locale": "ja",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB第165条の行政違反（測定値 ≥ 0,05 mg/L）",
+            "locale": "ja",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,34: VC 0,30 (crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "実施された測定（MR）",
+                "locale": "ja",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.34 mg/L",
+                "locale": "ja",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.34
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "許容最大誤差（EM）",
+                "locale": "ja",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L（固定、MR < 0,40）",
+                "locale": "ja",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "血中のおおよその相当値（VC × 2）",
+                "locale": "ja",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.60 g/L",
+                "locale": "ja",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB第165条の違反および第306条の犯罪（考慮値 ≥ 0,30 mg/L）",
+            "locale": "ja",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,64: EM 8% = 0,0512; VC 0,58 (tabela oficial)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "実施された測定（MR）",
+                "locale": "ja",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.64 mg/L",
+                "locale": "ja",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.64
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "許容最大誤差（EM）",
+                "locale": "ja",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.051 mg/L（MRの8%）",
+                "locale": "ja",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.051
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "血中のおおよその相当値（VC × 2）",
+                "locale": "ja",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1.16 g/L",
+                "locale": "ja",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.16
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB第165条の違反および第306条の犯罪（考慮値 ≥ 0,30 mg/L）",
+            "locale": "ja",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 1,00: VC 0,92",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "実施された測定（MR）",
+                "locale": "ja",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "1.00 mg/L",
+                "locale": "ja",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "許容最大誤差（EM）",
+                "locale": "ja",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.080 mg/L（MRの8%）",
+                "locale": "ja",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.08
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "血中のおおよその相当値（VC × 2）",
+                "locale": "ja",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1.84 g/L",
+                "locale": "ja",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.84
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB第165条の違反および第306条の犯罪（考慮値 ≥ 0,30 mg/L）",
+            "locale": "ja",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 2,50: EM 30% = 0,75; VC 1,75",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "実施された測定（MR）",
+                "locale": "ja",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "2.50 mg/L",
+                "locale": "ja",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "許容最大誤差（EM）",
+                "locale": "ja",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.750 mg/L（MR の 30%）",
+                "locale": "ja",
+                "template": "documented-authored-010ad6f9f422de33a6e9",
+                "sourceNumbers": [
+                  0.75
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "血中のおおよその相当値（VC × 2）",
+                "locale": "ja",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "3.50 g/L",
+                "locale": "ja",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  3.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB第165条の違反および第306条の犯罪（考慮値 ≥ 0,30 mg/L）",
+            "locale": "ja",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,04: VC 0,00 (não caracteriza pelo etilômetro)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "実施された測定（MR）",
+                "locale": "ja",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.04 mg/L",
+                "locale": "ja",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.04
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "許容最大誤差（EM）",
+                "locale": "ja",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L（固定、MR < 0,40）",
+                "locale": "ja",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "血中のおおよその相当値（VC × 2）",
+                "locale": "ja",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.00 g/L",
+                "locale": "ja",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "アルコール検知器による違反を示す値未満（測定値 < 0,05 mg/L）",
+            "locale": "ja",
+            "template": "documented-authored-7e4d1e9ac568598ed88b"
+          },
+          "note": {
+            "text": "精神運動能力の低下の兆候（決議 432 の付属書 II）も、アルコール検知器にかかわらず、違反に該当します。",
+            "locale": "ja",
+            "template": "documented-authored-7ac894635933422f346f"
+          },
+          "level": "low"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "MR 0,05: VC 0,01 (infração)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "की गई माप (MR)",
+                "locale": "hi",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.05 mg/L",
+                "locale": "hi",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.05
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "अधिकतम अनुमेय त्रुटि (EM)",
+                "locale": "hi",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L (स्थिर, MR < 0,40)",
+                "locale": "hi",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "रक्त में अनुमानित समतुल्य (VC × 2)",
+                "locale": "hi",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.02 g/L",
+                "locale": "hi",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.02
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB की धारा 165 के तहत प्रशासनिक उल्लंघन (मापन ≥ 0,05 mg/L)",
+            "locale": "hi",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,33: VC 0,29 (infração, sem crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "की गई माप (MR)",
+                "locale": "hi",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.33 mg/L",
+                "locale": "hi",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.33
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "अधिकतम अनुमेय त्रुटि (EM)",
+                "locale": "hi",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L (स्थिर, MR < 0,40)",
+                "locale": "hi",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "रक्त में अनुमानित समतुल्य (VC × 2)",
+                "locale": "hi",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.58 g/L",
+                "locale": "hi",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.58
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB की धारा 165 के तहत प्रशासनिक उल्लंघन (मापन ≥ 0,05 mg/L)",
+            "locale": "hi",
+            "template": "documented-authored-3ee961b37cb3b2a8f5da"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "MR 0,34: VC 0,30 (crime)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "की गई माप (MR)",
+                "locale": "hi",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.34 mg/L",
+                "locale": "hi",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.34
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "अधिकतम अनुमेय त्रुटि (EM)",
+                "locale": "hi",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L (स्थिर, MR < 0,40)",
+                "locale": "hi",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "रक्त में अनुमानित समतुल्य (VC × 2)",
+                "locale": "hi",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.60 g/L",
+                "locale": "hi",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0.6
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB की धारा 165 का उल्लंघन और धारा 306 का अपराध (माना गया मान ≥ 0,30 mg/L)",
+            "locale": "hi",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,64: EM 8% = 0,0512; VC 0,58 (tabela oficial)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "की गई माप (MR)",
+                "locale": "hi",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.64 mg/L",
+                "locale": "hi",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.64
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "अधिकतम अनुमेय त्रुटि (EM)",
+                "locale": "hi",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.051 mg/L (MR का 8%)",
+                "locale": "hi",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.051
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "रक्त में अनुमानित समतुल्य (VC × 2)",
+                "locale": "hi",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1.16 g/L",
+                "locale": "hi",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.16
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB की धारा 165 का उल्लंघन और धारा 306 का अपराध (माना गया मान ≥ 0,30 mg/L)",
+            "locale": "hi",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 1,00: VC 0,92",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "की गई माप (MR)",
+                "locale": "hi",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "1.00 mg/L",
+                "locale": "hi",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  1
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "अधिकतम अनुमेय त्रुटि (EM)",
+                "locale": "hi",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.080 mg/L (MR का 8%)",
+                "locale": "hi",
+                "template": "documented-authored-7efa97637c32febd622a",
+                "sourceNumbers": [
+                  0.08
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "रक्त में अनुमानित समतुल्य (VC × 2)",
+                "locale": "hi",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "1.84 g/L",
+                "locale": "hi",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  1.84
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB की धारा 165 का उल्लंघन और धारा 306 का अपराध (माना गया मान ≥ 0,30 mg/L)",
+            "locale": "hi",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 2,50: EM 30% = 0,75; VC 1,75",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "की गई माप (MR)",
+                "locale": "hi",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "2.50 mg/L",
+                "locale": "hi",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  2.5
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "अधिकतम अनुमेय त्रुटि (EM)",
+                "locale": "hi",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.750 mg/L (MR का 30%)",
+                "locale": "hi",
+                "template": "documented-authored-010ad6f9f422de33a6e9",
+                "sourceNumbers": [
+                  0.75
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "रक्त में अनुमानित समतुल्य (VC × 2)",
+                "locale": "hi",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "3.50 g/L",
+                "locale": "hi",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  3.5
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "CTB की धारा 165 का उल्लंघन और धारा 306 का अपराध (माना गया मान ≥ 0,30 mg/L)",
+            "locale": "hi",
+            "template": "documented-authored-b10244d0c4288a078937"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "MR 0,04: VC 0,00 (não caracteriza pelo etilômetro)",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "की गई माप (MR)",
+                "locale": "hi",
+                "template": "documented-authored-b27e1ce203b3f265b877"
+              },
+              "value": {
+                "text": "0.04 mg/L",
+                "locale": "hi",
+                "template": "documented-authored-c1ad20f767c7ea03bbc4",
+                "sourceNumbers": [
+                  0.04
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "अधिकतम अनुमेय त्रुटि (EM)",
+                "locale": "hi",
+                "template": "documented-authored-5cb88738b994a9f0b6f0"
+              },
+              "value": {
+                "text": "0.032 mg/L (स्थिर, MR < 0,40)",
+                "locale": "hi",
+                "template": "documented-authored-f2ff319dc849c0fb41a8",
+                "sourceNumbers": [
+                  0.032
+                ]
+              }
+            },
+            {
+              "key": "documented-2",
+              "label": {
+                "text": "रक्त में अनुमानित समतुल्य (VC × 2)",
+                "locale": "hi",
+                "template": "documented-authored-a5d1d4934ee75b46fadf"
+              },
+              "value": {
+                "text": "0.00 g/L",
+                "locale": "hi",
+                "template": "documented-authored-432939fdbde8e09b5be9",
+                "sourceNumbers": [
+                  0
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "ब्रीथलाइज़र द्वारा उल्लंघन को दर्शाने वाले मान से कम (मापन < 0,05 mg/L)",
+            "locale": "hi",
+            "template": "documented-authored-7e4d1e9ac568598ed88b"
+          },
+          "note": {
+            "text": "मनो-गतिशील क्षमता में परिवर्तन के संकेत (Resolution 432 का Annex II) भी, ब्रीथलाइज़र से स्वतंत्र रूप से, उल्लंघन का गठन करते हैं।",
+            "locale": "hi",
+            "template": "documented-authored-7ac894635933422f346f"
+          },
+          "level": "low"
+        }
+      }
+    ]
+  }
+}

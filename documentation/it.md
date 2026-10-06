@@ -63,3 +63,86 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Infrazione amministrativa dell’art. 165 del CTB (misurazione ≥ 0,05 mg/L)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Misurazione effettuata (MR) | 0,05 mg/L |
+| Errore massimo ammissibile (EM) | 0,032 mg/L (fisso, MR < 0,40) |
+| Equivalente approssimativo nel sangue (VC × 2) | 0,02 g/L |
+
+
+### 2
+
+Infrazione amministrativa dell’art. 165 del CTB (misurazione ≥ 0,05 mg/L)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Misurazione effettuata (MR) | 0,33 mg/L |
+| Errore massimo ammissibile (EM) | 0,032 mg/L (fisso, MR < 0,40) |
+| Equivalente approssimativo nel sangue (VC × 2) | 0,58 g/L |
+
+
+### 3
+
+Infrazione dell’art. 165 del CTB e reato dell’art. 306 (valore considerato ≥ 0,30 mg/L)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Misurazione effettuata (MR) | 0,34 mg/L |
+| Errore massimo ammissibile (EM) | 0,032 mg/L (fisso, MR < 0,40) |
+| Equivalente approssimativo nel sangue (VC × 2) | 0,60 g/L |
+
+
+### 4
+
+Infrazione dell’art. 165 del CTB e reato dell’art. 306 (valore considerato ≥ 0,30 mg/L)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Misurazione effettuata (MR) | 0,64 mg/L |
+| Errore massimo ammissibile (EM) | 0,051 mg/L (8% della MR) |
+| Equivalente approssimativo nel sangue (VC × 2) | 1,16 g/L |
+
+
+### 5
+
+Infrazione dell’art. 165 del CTB e reato dell’art. 306 (valore considerato ≥ 0,30 mg/L)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Misurazione effettuata (MR) | 1,00 mg/L |
+| Errore massimo ammissibile (EM) | 0,080 mg/L (8% della MR) |
+| Equivalente approssimativo nel sangue (VC × 2) | 1,84 g/L |
+
+
+### 6
+
+Infrazione dell’art. 165 del CTB e reato dell’art. 306 (valore considerato ≥ 0,30 mg/L)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Misurazione effettuata (MR) | 2,50 mg/L |
+| Errore massimo ammissibile (EM) | 0,750 mg/L (30% della MR) |
+| Equivalente approssimativo nel sangue (VC × 2) | 3,50 g/L |
+
+
+### 7
+
+Al di sotto del valore che caratterizza un’infrazione con l’etilometro (misurazione < 0,05 mg/L)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Misurazione effettuata (MR) | 0,04 mg/L |
+| Errore massimo ammissibile (EM) | 0,032 mg/L (fisso, MR < 0,40) |
+| Equivalente approssimativo nel sangue (VC × 2) | 0,00 g/L |
+
+I segni di alterazione della capacità psicomotoria (Allegato II della Risoluzione 432) caratterizzano anche l’infrazione, indipendentemente dall’etilometro.
+

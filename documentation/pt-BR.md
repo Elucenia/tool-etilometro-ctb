@@ -63,3 +63,86 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Infração administrativa do art. 165 do CTB (medição ≥ 0,05 mg/L)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Medição realizada (MR) | 0,05 mg/L |
+| Erro máximo admissível (EM) | 0,032 mg/L (fixo, MR < 0,40) |
+| Equivalente aproximado no sangue (VC × 2) | 0,02 g/L |
+
+
+### 2
+
+Infração administrativa do art. 165 do CTB (medição ≥ 0,05 mg/L)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Medição realizada (MR) | 0,33 mg/L |
+| Erro máximo admissível (EM) | 0,032 mg/L (fixo, MR < 0,40) |
+| Equivalente aproximado no sangue (VC × 2) | 0,58 g/L |
+
+
+### 3
+
+Infração do art. 165 do CTB e crime do art. 306 (valor considerado ≥ 0,30 mg/L)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Medição realizada (MR) | 0,34 mg/L |
+| Erro máximo admissível (EM) | 0,032 mg/L (fixo, MR < 0,40) |
+| Equivalente aproximado no sangue (VC × 2) | 0,60 g/L |
+
+
+### 4
+
+Infração do art. 165 do CTB e crime do art. 306 (valor considerado ≥ 0,30 mg/L)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Medição realizada (MR) | 0,64 mg/L |
+| Erro máximo admissível (EM) | 0,051 mg/L (8% da MR) |
+| Equivalente aproximado no sangue (VC × 2) | 1,16 g/L |
+
+
+### 5
+
+Infração do art. 165 do CTB e crime do art. 306 (valor considerado ≥ 0,30 mg/L)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Medição realizada (MR) | 1,00 mg/L |
+| Erro máximo admissível (EM) | 0,080 mg/L (8% da MR) |
+| Equivalente aproximado no sangue (VC × 2) | 1,84 g/L |
+
+
+### 6
+
+Infração do art. 165 do CTB e crime do art. 306 (valor considerado ≥ 0,30 mg/L)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Medição realizada (MR) | 2,50 mg/L |
+| Erro máximo admissível (EM) | 0,750 mg/L (30% da MR) |
+| Equivalente aproximado no sangue (VC × 2) | 3,50 g/L |
+
+
+### 7
+
+Abaixo do valor que caracteriza infração pelo etilômetro (medição < 0,05 mg/L)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Medição realizada (MR) | 0,04 mg/L |
+| Erro máximo admissível (EM) | 0,032 mg/L (fixo, MR < 0,40) |
+| Equivalente aproximado no sangue (VC × 2) | 0,00 g/L |
+
+Sinais de alteração da capacidade psicomotora (Anexo II da Resolução 432) também caracterizam a infração, independentemente do etilômetro.
+

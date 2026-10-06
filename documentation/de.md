@@ -63,3 +63,86 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Ordnungswidrigkeit nach Artikel 165 des CTB (Messwert ≥ 0,05 mg/L)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Durchgeführte Messung (MR) | 0,05 mg/L |
+| Maximal zulässiger Fehler (EM) | 0,032 mg/L (fest, MR < 0,40) |
+| Ungefährer Blutäquivalentwert (VC × 2) | 0,02 g/L |
+
+
+### 2
+
+Ordnungswidrigkeit nach Artikel 165 des CTB (Messwert ≥ 0,05 mg/L)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Durchgeführte Messung (MR) | 0,33 mg/L |
+| Maximal zulässiger Fehler (EM) | 0,032 mg/L (fest, MR < 0,40) |
+| Ungefährer Blutäquivalentwert (VC × 2) | 0,58 g/L |
+
+
+### 3
+
+Verstoß gegen Artikel 165 des CTB und Straftat nach Artikel 306 (berücksichtigter Wert ≥ 0,30 mg/L)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Durchgeführte Messung (MR) | 0,34 mg/L |
+| Maximal zulässiger Fehler (EM) | 0,032 mg/L (fest, MR < 0,40) |
+| Ungefährer Blutäquivalentwert (VC × 2) | 0,60 g/L |
+
+
+### 4
+
+Verstoß gegen Artikel 165 des CTB und Straftat nach Artikel 306 (berücksichtigter Wert ≥ 0,30 mg/L)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Durchgeführte Messung (MR) | 0,64 mg/L |
+| Maximal zulässiger Fehler (EM) | 0,051 mg/L (8 % des MR) |
+| Ungefährer Blutäquivalentwert (VC × 2) | 1,16 g/L |
+
+
+### 5
+
+Verstoß gegen Artikel 165 des CTB und Straftat nach Artikel 306 (berücksichtigter Wert ≥ 0,30 mg/L)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Durchgeführte Messung (MR) | 1,00 mg/L |
+| Maximal zulässiger Fehler (EM) | 0,080 mg/L (8 % des MR) |
+| Ungefährer Blutäquivalentwert (VC × 2) | 1,84 g/L |
+
+
+### 6
+
+Verstoß gegen Artikel 165 des CTB und Straftat nach Artikel 306 (berücksichtigter Wert ≥ 0,30 mg/L)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Durchgeführte Messung (MR) | 2,50 mg/L |
+| Maximal zulässiger Fehler (EM) | 0,750 mg/L (30% der MR) |
+| Ungefährer Blutäquivalentwert (VC × 2) | 3,50 g/L |
+
+
+### 7
+
+Unterhalb des Werts, der eine Ordnungswidrigkeit durch das Alkoholmessgerät kennzeichnet (Messung < 0,05 mg/L)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Durchgeführte Messung (MR) | 0,04 mg/L |
+| Maximal zulässiger Fehler (EM) | 0,032 mg/L (fest, MR < 0,40) |
+| Ungefährer Blutäquivalentwert (VC × 2) | 0,00 g/L |
+
+Anzeichen einer Beeinträchtigung der psychomotorischen Leistungsfähigkeit (Anhang II der Resolution 432) kennzeichnen die Ordnungswidrigkeit ebenfalls, unabhängig vom Alkoholmessgerät.
+

@@ -1,0 +1,494 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "etilometro-ctb",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "c1f6427dda6f892fa8c712c822b1807c31bfb95a",
+    "oldEngineSha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3",
+    "currentEngineSha256": "dec9fa1b484a34c0540da9ae6be7c65016e89e0fab7590ba261202fa48f2ecaf"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "MR 0,05: VC 0,01 (infração)",
+      "input": {
+        "mr": 0.05
+      },
+      "publicOutput": {
+        "id": "etilometro-ctb",
+        "main": [
+          "0,01",
+          "mg/L"
+        ],
+        "label": "Valor considerado (VC = medição − erro máximo admissível)",
+        "raw": {
+          "vc": 0.01,
+          "em": 0.032
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "vc": 0.01
+        },
+        "main": "0,01",
+        "level": "mid",
+        "tol": 0.0001
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0,01",
+          "mg/L"
+        ],
+        "label": "Valor considerado (VC = medição − erro máximo admissível)",
+        "level": "mid",
+        "verdict": "Infração administrativa do art. 165 do CTB (medição ≥ 0,05 mg/L)",
+        "rows": [
+          [
+            "Medição realizada (MR)",
+            "0,05 mg/L"
+          ],
+          [
+            "Erro máximo admissível (EM)",
+            "0,032 mg/L (fixo, MR &lt; 0,40)"
+          ],
+          [
+            "Equivalente aproximado no sangue (VC × 2)",
+            "0,02 g/L"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "vc": 0.01,
+          "em": 0.032
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "MR 0,33: VC 0,29 (infração, sem crime)",
+      "input": {
+        "mr": 0.33
+      },
+      "publicOutput": {
+        "id": "etilometro-ctb",
+        "main": [
+          "0,29",
+          "mg/L"
+        ],
+        "label": "Valor considerado (VC = medição − erro máximo admissível)",
+        "raw": {
+          "vc": 0.29,
+          "em": 0.032
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "vc": 0.29
+        },
+        "level": "mid",
+        "tol": 0.0001
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0,29",
+          "mg/L"
+        ],
+        "label": "Valor considerado (VC = medição − erro máximo admissível)",
+        "level": "mid",
+        "verdict": "Infração administrativa do art. 165 do CTB (medição ≥ 0,05 mg/L)",
+        "rows": [
+          [
+            "Medição realizada (MR)",
+            "0,33 mg/L"
+          ],
+          [
+            "Erro máximo admissível (EM)",
+            "0,032 mg/L (fixo, MR &lt; 0,40)"
+          ],
+          [
+            "Equivalente aproximado no sangue (VC × 2)",
+            "0,58 g/L"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "vc": 0.29,
+          "em": 0.032
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "MR 0,34: VC 0,30 (crime)",
+      "input": {
+        "mr": 0.34
+      },
+      "publicOutput": {
+        "id": "etilometro-ctb",
+        "main": [
+          "0,30",
+          "mg/L"
+        ],
+        "label": "Valor considerado (VC = medição − erro máximo admissível)",
+        "raw": {
+          "vc": 0.3,
+          "em": 0.032
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "vc": 0.3
+        },
+        "level": "high",
+        "verdict": "crime",
+        "tol": 0.0001
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0,30",
+          "mg/L"
+        ],
+        "label": "Valor considerado (VC = medição − erro máximo admissível)",
+        "level": "high",
+        "verdict": "Infração do art. 165 do CTB e crime do art. 306 (valor considerado ≥ 0,30 mg/L)",
+        "rows": [
+          [
+            "Medição realizada (MR)",
+            "0,34 mg/L"
+          ],
+          [
+            "Erro máximo admissível (EM)",
+            "0,032 mg/L (fixo, MR &lt; 0,40)"
+          ],
+          [
+            "Equivalente aproximado no sangue (VC × 2)",
+            "0,60 g/L"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "vc": 0.3,
+          "em": 0.032
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "MR 0,64: EM 8% = 0,0512; VC 0,58 (tabela oficial)",
+      "input": {
+        "mr": 0.64
+      },
+      "publicOutput": {
+        "id": "etilometro-ctb",
+        "main": [
+          "0,58",
+          "mg/L"
+        ],
+        "label": "Valor considerado (VC = medição − erro máximo admissível)",
+        "raw": {
+          "vc": 0.58,
+          "em": 0.0512
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "vc": 0.58
+        },
+        "tol": 0.0001
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0,58",
+          "mg/L"
+        ],
+        "label": "Valor considerado (VC = medição − erro máximo admissível)",
+        "level": "high",
+        "verdict": "Infração do art. 165 do CTB e crime do art. 306 (valor considerado ≥ 0,30 mg/L)",
+        "rows": [
+          [
+            "Medição realizada (MR)",
+            "0,64 mg/L"
+          ],
+          [
+            "Erro máximo admissível (EM)",
+            "0,051 mg/L (8% da MR)"
+          ],
+          [
+            "Equivalente aproximado no sangue (VC × 2)",
+            "1,16 g/L"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "vc": 0.58,
+          "em": 0.0512
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 4,
+      "name": "MR 1,00: VC 0,92",
+      "input": {
+        "mr": 1
+      },
+      "publicOutput": {
+        "id": "etilometro-ctb",
+        "main": [
+          "0,92",
+          "mg/L"
+        ],
+        "label": "Valor considerado (VC = medição − erro máximo admissível)",
+        "raw": {
+          "vc": 0.92,
+          "em": 0.08
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "vc": 0.92
+        },
+        "tol": 0.0001
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0,92",
+          "mg/L"
+        ],
+        "label": "Valor considerado (VC = medição − erro máximo admissível)",
+        "level": "high",
+        "verdict": "Infração do art. 165 do CTB e crime do art. 306 (valor considerado ≥ 0,30 mg/L)",
+        "rows": [
+          [
+            "Medição realizada (MR)",
+            "1,00 mg/L"
+          ],
+          [
+            "Erro máximo admissível (EM)",
+            "0,080 mg/L (8% da MR)"
+          ],
+          [
+            "Equivalente aproximado no sangue (VC × 2)",
+            "1,84 g/L"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "vc": 0.92,
+          "em": 0.08
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 5,
+      "name": "MR 2,50: EM 30% = 0,75; VC 1,75",
+      "input": {
+        "mr": 2.5
+      },
+      "publicOutput": {
+        "id": "etilometro-ctb",
+        "main": [
+          "1,75",
+          "mg/L"
+        ],
+        "label": "Valor considerado (VC = medição − erro máximo admissível)",
+        "raw": {
+          "vc": 1.75,
+          "em": 0.75
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "vc": 1.75
+        },
+        "level": "high",
+        "tol": 0.0001
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "1,75",
+          "mg/L"
+        ],
+        "label": "Valor considerado (VC = medição − erro máximo admissível)",
+        "level": "high",
+        "verdict": "Infração do art. 165 do CTB e crime do art. 306 (valor considerado ≥ 0,30 mg/L)",
+        "rows": [
+          [
+            "Medição realizada (MR)",
+            "2,50 mg/L"
+          ],
+          [
+            "Erro máximo admissível (EM)",
+            "0,750 mg/L (30% da MR)"
+          ],
+          [
+            "Equivalente aproximado no sangue (VC × 2)",
+            "3,50 g/L"
+          ]
+        ],
+        "note": "",
+        "raw": {
+          "vc": 1.75,
+          "em": 0.75
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 6,
+      "name": "MR 0,04: VC 0,00 (não caracteriza pelo etilômetro)",
+      "input": {
+        "mr": 0.04
+      },
+      "publicOutput": {
+        "id": "etilometro-ctb",
+        "main": [
+          "0,00",
+          "mg/L"
+        ],
+        "label": "Valor considerado (VC = medição − erro máximo admissível)",
+        "raw": {
+          "vc": 0,
+          "em": 0.032
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "vc": 0
+        },
+        "level": "low",
+        "tol": 0.0001
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0,00",
+          "mg/L"
+        ],
+        "label": "Valor considerado (VC = medição − erro máximo admissível)",
+        "level": "low",
+        "verdict": "Abaixo do valor que caracteriza infração pelo etilômetro (medição &lt; 0,05 mg/L)",
+        "rows": [
+          [
+            "Medição realizada (MR)",
+            "0,04 mg/L"
+          ],
+          [
+            "Erro máximo admissível (EM)",
+            "0,032 mg/L (fixo, MR &lt; 0,40)"
+          ],
+          [
+            "Equivalente aproximado no sangue (VC × 2)",
+            "0,00 g/L"
+          ]
+        ],
+        "note": "Sinais de alteração da capacidade psicomotora (Anexo II da Resolução 432) também caracterizam a infração, independentemente do etilômetro.",
+        "raw": {
+          "vc": 0,
+          "em": 0.032
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    }
+  ]
+}

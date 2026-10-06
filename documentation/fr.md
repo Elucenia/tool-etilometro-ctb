@@ -63,3 +63,86 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Infraction administrative de l’art. 165 du CTB (mesure ≥ 0,05 mg/L)
+
+| Détails du résultat | |
+| --- | --- |
+| Mesure réalisée (MR) | 0,05 mg/L |
+| Erreur maximale admissible (EM) | 0,032 mg/L (fixe, MR < 0,40) |
+| Équivalent approximatif dans le sang (VC × 2) | 0,02 g/L |
+
+
+### 2
+
+Infraction administrative de l’art. 165 du CTB (mesure ≥ 0,05 mg/L)
+
+| Détails du résultat | |
+| --- | --- |
+| Mesure réalisée (MR) | 0,33 mg/L |
+| Erreur maximale admissible (EM) | 0,032 mg/L (fixe, MR < 0,40) |
+| Équivalent approximatif dans le sang (VC × 2) | 0,58 g/L |
+
+
+### 3
+
+Infraction de l’art. 165 du CTB et crime de l’art. 306 (valeur retenue ≥ 0,30 mg/L)
+
+| Détails du résultat | |
+| --- | --- |
+| Mesure réalisée (MR) | 0,34 mg/L |
+| Erreur maximale admissible (EM) | 0,032 mg/L (fixe, MR < 0,40) |
+| Équivalent approximatif dans le sang (VC × 2) | 0,60 g/L |
+
+
+### 4
+
+Infraction de l’art. 165 du CTB et crime de l’art. 306 (valeur retenue ≥ 0,30 mg/L)
+
+| Détails du résultat | |
+| --- | --- |
+| Mesure réalisée (MR) | 0,64 mg/L |
+| Erreur maximale admissible (EM) | 0,051 mg/L (8 % de la MR) |
+| Équivalent approximatif dans le sang (VC × 2) | 1,16 g/L |
+
+
+### 5
+
+Infraction de l’art. 165 du CTB et crime de l’art. 306 (valeur retenue ≥ 0,30 mg/L)
+
+| Détails du résultat | |
+| --- | --- |
+| Mesure réalisée (MR) | 1,00 mg/L |
+| Erreur maximale admissible (EM) | 0,080 mg/L (8 % de la MR) |
+| Équivalent approximatif dans le sang (VC × 2) | 1,84 g/L |
+
+
+### 6
+
+Infraction de l’art. 165 du CTB et crime de l’art. 306 (valeur retenue ≥ 0,30 mg/L)
+
+| Détails du résultat | |
+| --- | --- |
+| Mesure réalisée (MR) | 2,50 mg/L |
+| Erreur maximale admissible (EM) | 0,750 mg/L (30% de la MR) |
+| Équivalent approximatif dans le sang (VC × 2) | 3,50 g/L |
+
+
+### 7
+
+En dessous de la valeur qui caractérise une infraction au détecteur d’alcool (mesure < 0,05 mg/L)
+
+| Détails du résultat | |
+| --- | --- |
+| Mesure réalisée (MR) | 0,04 mg/L |
+| Erreur maximale admissible (EM) | 0,032 mg/L (fixe, MR < 0,40) |
+| Équivalent approximatif dans le sang (VC × 2) | 0,00 g/L |
+
+Des signes d’altération de la capacité psychomotrice (annexe II de la Résolution 432) caractérisent également l’infraction, indépendamment du détecteur d’alcool.
+

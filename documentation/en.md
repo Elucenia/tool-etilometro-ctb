@@ -63,3 +63,86 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Administrative offense under article 165 of the CTB (measurement ≥ 0,05 mg/L)
+
+| Result details | |
+| --- | --- |
+| Measurement performed (MR) | 0.05 mg/L |
+| Maximum permissible error (ME) | 0.032 mg/L (fixed, MR < 0,40) |
+| Approximate blood equivalent (VC × 2) | 0.02 g/L |
+
+
+### 2
+
+Administrative offense under article 165 of the CTB (measurement ≥ 0,05 mg/L)
+
+| Result details | |
+| --- | --- |
+| Measurement performed (MR) | 0.33 mg/L |
+| Maximum permissible error (ME) | 0.032 mg/L (fixed, MR < 0,40) |
+| Approximate blood equivalent (VC × 2) | 0.58 g/L |
+
+
+### 3
+
+Offense under article 165 of the CTB and crime under article 306 (considered value ≥ 0,30 mg/L)
+
+| Result details | |
+| --- | --- |
+| Measurement performed (MR) | 0.34 mg/L |
+| Maximum permissible error (ME) | 0.032 mg/L (fixed, MR < 0,40) |
+| Approximate blood equivalent (VC × 2) | 0.60 g/L |
+
+
+### 4
+
+Offense under article 165 of the CTB and crime under article 306 (considered value ≥ 0,30 mg/L)
+
+| Result details | |
+| --- | --- |
+| Measurement performed (MR) | 0.64 mg/L |
+| Maximum permissible error (ME) | 0.051 mg/L (8% of MR) |
+| Approximate blood equivalent (VC × 2) | 1.16 g/L |
+
+
+### 5
+
+Offense under article 165 of the CTB and crime under article 306 (considered value ≥ 0,30 mg/L)
+
+| Result details | |
+| --- | --- |
+| Measurement performed (MR) | 1.00 mg/L |
+| Maximum permissible error (ME) | 0.080 mg/L (8% of MR) |
+| Approximate blood equivalent (VC × 2) | 1.84 g/L |
+
+
+### 6
+
+Offense under article 165 of the CTB and crime under article 306 (considered value ≥ 0,30 mg/L)
+
+| Result details | |
+| --- | --- |
+| Measurement performed (MR) | 2.50 mg/L |
+| Maximum permissible error (ME) | 0.750 mg/L (30% of the MR) |
+| Approximate blood equivalent (VC × 2) | 3.50 g/L |
+
+
+### 7
+
+Below the value that characterizes an infraction by breathalyzer (measurement < 0.05 mg/L)
+
+| Result details | |
+| --- | --- |
+| Measurement performed (MR) | 0.04 mg/L |
+| Maximum permissible error (ME) | 0.032 mg/L (fixed, MR < 0,40) |
+| Approximate blood equivalent (VC × 2) | 0.00 g/L |
+
+Signs of impairment of psychomotor capacity (Annex II of Resolution 432) also characterize the infraction, regardless of the breathalyzer.
+

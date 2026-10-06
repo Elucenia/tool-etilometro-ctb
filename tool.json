@@ -279,7 +279,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "CONTRAN 432/2013 Anexo I:erro 0,032/8%/30%; truncamento 2 decimais; aplicação Brasil",
-    "implementationVersion": "etilometro-ctb@native-2026-10-03+f6980084a12b",
+    "implementationVersion": "etilometro-ctb@native-2026-10-05+dec9fa1b484a",
     "currentMethodSource": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucao-no-432-de-23-de-janeiro-de-2013",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -471,7 +471,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+      "implementationHash": "dec9fa1b484a34c0540da9ae6be7c65016e89e0fab7590ba261202fa48f2ecaf",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "etilometro-ctb@native-2026-10-03+f6980084a12b",
+          "previousImplementationHash": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3",
+          "implementationHash": "dec9fa1b484a34c0540da9ae6be7c65016e89e0fab7590ba261202fa48f2ecaf",
+          "scientificBodySha256": "bab773e0cea24a541b9e26e62fce4779e5ccebeeebab45fd9ab99e8b4d1fb2a6",
+          "metadataContractHash": "7896a74eae8902b6dcedb8dbb88c81e96b5563f620bee2abb99b5462dbb2fcee",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "A Resolução 432/2013 distingue medição realizada e valor considerado, após desconto do erro metrológico, e exige instrumento aprovado e verificado. O enquadramento também admite outros meios, inclusive sangue e conjunto de sinais psicomotores. Um cálculo de etilômetro isolado não constitui avaliação clínica, prova de aptidão para dirigir ou decisão jurídica; a vigência do CTB e da legislação metrológica deve acompanhar o caso.",
     "sourceLimitEvidence": {
@@ -491,20 +519,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/etilometro-ctb/calculator.js",
-    "bytes": 5223,
-    "sha256": "f6980084a12b72a2f650e24ad303ca8a95f4c666082496af0b4407187bd94de3"
+    "bytes": 5428,
+    "sha256": "dec9fa1b484a34c0540da9ae6be7c65016e89e0fab7590ba261202fa48f2ecaf"
   },
-  "sourceToolSha256": "4fa61d8c0c3398399001763d7a4d871b371c93c0ed7dbfaaa2fd4823ee648583",
+  "sourceToolSha256": "89cbfc1f7dc63ca1e95caf548f0122db331bee8dd2f8a7759258ffdf9a109508",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "4143cc7ed4a294d5d012c084e0a364af3fd4b5cfd1d077cf923b298f29b70d9e",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "4143cc7ed4a294d5d012c084e0a364af3fd4b5cfd1d077cf923b298f29b70d9e",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",
